@@ -1,0 +1,13 @@
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\bin\Debug\Memento.exe.config
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\bin\Debug\Memento.exe
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\bin\Debug\Memento.pdb
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.csprojResolveAssemblyReference.cache
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\MainWindow.baml
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\MainWindow.g.cs
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\App.g.cs
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento_MarkupCompile.cache
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.g.resources
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.Properties.Resources.resources
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.exe
+c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.pdb

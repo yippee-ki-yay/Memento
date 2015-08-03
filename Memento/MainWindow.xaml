@@ -1,0 +1,12 @@
+﻿<Window x:Class="Memento.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="426.119" Width="656.343">
+    <Grid Margin="0,0,-64,-87">
+        <TextBlock Name="pitanjeText" HorizontalAlignment="Left" Height="127" Margin="77,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <TextBlock Name="odogovorText" HorizontalAlignment="Left" Height="125" Margin="77,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <Button Content="Next" HorizontalAlignment="Left" Height="44" Margin="499,266,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click"/>
+        <Button Content="Show" HorizontalAlignment="Left" Height="43" Margin="499,104,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
