@@ -11,3 +11,16 @@ c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debu
 c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
 c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.exe
 c:\users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\Memento.pdb
+C:\Users\Besermenji\Desktop\Memento-master\Memento\bin\Debug\Memento.exe.config
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\Memento.exe
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\Memento.pdb
+C:\Users\Besermenji\Desktop\Memento-master\Memento\bin\Debug\Memento.exe
+C:\Users\Besermenji\Desktop\Memento-master\Memento\bin\Debug\Memento.pdb
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\Memento.csprojResolveAssemblyReference.cache
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\MainWindow.baml
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\MainWindow.g.cs
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\App.g.cs
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\Memento_MarkupCompile.cache
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\Memento.g.resources
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\Memento.Properties.Resources.resources
+C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
