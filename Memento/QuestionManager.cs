@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
 
 namespace Memento
 {
@@ -17,9 +20,31 @@ namespace Memento
             qaList = new List<Tuple<string, string>>();
         }
 
+
+        /// <summary>
+        /// Allows user to choose what file with questions/answers he wants to choose
+        /// </summary>
+        /// <returns>returns if questions are opened and walid, or not</returns>
+        public string openQuestions(){
+
+            System.Windows.Forms.OpenFileDialog choofdlog = new System.Windows.Forms.OpenFileDialog();
+            choofdlog.Title = "Izaberite fajl s pitanjima";
+            choofdlog.Filter = "All Files (*.*)|*.*";
+            choofdlog.FilterIndex = 1;
+
+            if (choofdlog.ShowDialog() == DialogResult.OK)
+            {
+                string sFileName = choofdlog.FileName;
+                return sFileName;
+            }
+            else return "";
+        }
+
+
+
         public bool loadFile(string filePath)
         {
-            string text = System.IO.File.ReadAllText("sims_teorija.txt", Encoding.UTF8);
+            string text = System.IO.File.ReadAllText(openQuestions(), Encoding.UTF8);
 
             string[] parts = Regex.Split(text, @"\d.");
                   
