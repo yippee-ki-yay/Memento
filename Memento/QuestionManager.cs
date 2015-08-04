@@ -19,9 +19,9 @@ namespace Memento
 
         public bool loadFile(string filePath)
         {
-            string text = System.IO.File.ReadAllText("sims_teorija.txt", Encoding.UTF8);
+            string text = System.IO.File.ReadAllText("sims_teorija.txt", Encoding.ASCII);
 
-            string[] parts = Regex.Split(text, @"\d.");
+            string[] parts = Regex.Split(text, @"\b\d+\.");
                   
 
             //string[] parts = results.Split('?');
