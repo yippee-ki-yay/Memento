@@ -28,7 +28,7 @@ namespace Memento
             InitializeComponent();
 
             qm = new QuestionManager();
-            qm.loadFile("wut");
+            qm.loadFile(1);
             curr = qm.getRandom();
             pitanjeText.Text = curr.Item1;
 

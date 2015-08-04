@@ -4,24 +4,16 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 C:\Users\korisnik\Documents\Visual Studio 2013\Projects\Memento\Memento\obj\Debug\
-=======
-C:\Users\Besermenji\Desktop\Memento-master\Memento\obj\Debug\
->>>>>>> 4539ac8f230db146d932dbd71a7ef085fa74c360
 Memento
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 C:\Users\korisnik\Documents\Visual Studio 2013\Projects\Memento\Memento\App.xaml
-=======
-C:\Users\Besermenji\Desktop\Memento-master\Memento\App.xaml
->>>>>>> 4539ac8f230db146d932dbd71a7ef085fa74c360
 11151548125
 
-6750532352
-13-1868018694
+7310223504
+13980051169
 MainWindow.xaml;
 
 False
