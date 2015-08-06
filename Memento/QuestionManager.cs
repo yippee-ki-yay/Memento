@@ -47,7 +47,12 @@ namespace Memento
         /// <returns>Vraca da li je sve uspesno proslo</returns>
         public bool loadFile(int tipParsiranja)
         {
-            string text = System.IO.File.ReadAllText(openQuestions(), Encoding.ASCII);
+            string filePath = openQuestions();
+
+            if (filePath.Equals(""))
+                return false;
+
+            string text = System.IO.File.ReadAllText(filePath, Encoding.ASCII);
 
             if (tipParsiranja == 1)
                 return parseOriginal(text);

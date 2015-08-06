@@ -59,19 +59,26 @@ namespace Memento
         
         private void besaParse_Click(object sender, RoutedEventArgs e)
         {
+            if (!bp.parseFile())
+                return;
+
             besa_pars = true;
             nextButton.IsEnabled = true;
             showButton.IsEnabled = true;
-            bp.parseFile();
+
             curr = bp.getRandom();
             pitanjeText.Text = curr.Item1;
         }
 
         private void nenadParse_Click(object sender, RoutedEventArgs e) {
+
+            if (!qm.loadFile(1))
+                qm.loadFile(1);
+
             nenad_pars = true;
             nextButton.IsEnabled = true;
             showButton.IsEnabled = true;
-            qm.loadFile("");
+          
             curr = qm.getRandom();
             pitanjeText.Text = curr.Item1;
 

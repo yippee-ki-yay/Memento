@@ -3,20 +3,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Memento" Height="426.119" Width="656.343">
     <Grid Margin="0,0,-64,-87">
-        <TextBlock Name="pitanjeText" HorizontalAlignment="Left" Height="127" Margin="77,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
-        <TextBlock Name="odogovorText" HorizontalAlignment="Left" Height="125" Margin="77,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
-        <Button Content="Next" x:Name="nextButton" HorizontalAlignment="Left" Height="44" Margin="499,266,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click"/>
-        <Button Content="Show" x:Name="showButton" HorizontalAlignment="Left" Height="43" Margin="499,104,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click_1"/>
+        <Border BorderThickness="1" BorderBrush="Black" Margin="23,59,348,310" RenderTransformOrigin="0.637,0.06">
+            <ScrollViewer VerticalScrollBarVisibility="Hidden">
+                <TextBlock x:Name="pitanjeText" HorizontalAlignment="Left" Height="104" Margin="-1,9,-1,-1" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" RenderTransformOrigin="0.205,0.167"/>
+            </ScrollViewer>
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Black" RenderTransformOrigin="0.275,0.536" Margin="23,227,348,126">
+            <ScrollViewer VerticalScrollBarVisibility="Hidden" Margin="0,0,0,9">
+                <TextBlock x:Name="odogovorText" HorizontalAlignment="Left" Height="140" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" RenderTransformOrigin="0.494,0.585"/>
+            </ScrollViewer>
+        </Border>
+        <Button Content="Next" x:Name="nextButton" HorizontalAlignment="Left" Height="44" Margin="453,200,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click"/>
+        <Button Content="Show" x:Name="showButton" HorizontalAlignment="Left" Height="43" Margin="453,59,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click_1"/>
 
 
         <DockPanel>
-            <Menu DockPanel.Dock="Top">
+            <Menu DockPanel.Dock="Top" Margin="0,0,70,0">
                 <MenuItem Header="_File">
                     <MenuItem Header="Parse _Besa Files" x:Name="besaParse"  Click="besaParse_Click"/>
                     <MenuItem Header="Parse _Nenad Files" x:Name="nenadParse" Click="nenadParse_Click"/>
                 </MenuItem>
             </Menu>
-            <StackPanel></StackPanel>
+            <StackPanel Margin="0,0,0,84" Width="703" RenderTransformOrigin="0.562,0.515"></StackPanel>
         </DockPanel>
 
 

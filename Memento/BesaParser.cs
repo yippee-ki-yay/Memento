@@ -13,53 +13,36 @@ namespace Memento
             qaList = new List<Tuple<string, string>>();
 
         }
+
         public bool parseFile()
         {
             //contains method for opening files with
             QuestionManager qm = new QuestionManager();
             string path = qm.openQuestions();
-            
-            int counter = 0;
-            string line;
-            string[] quiestions = new string[1000];
-            string[] answers = new string[1000];
-            int cnt_q = 0;
-            int cnt_a = 0;
+
+            if (path.Equals(""))
+                return false;
+
+            string question, answer;
 
             // Read the file and display it line by line.
             System.IO.StreamReader file =
                new System.IO.StreamReader(path);
-            while ((line = file.ReadLine()) != null)
+
+            while ((question = file.ReadLine()) != null)
             {
-
-                if (counter % 2 == 0)
+                if ((answer = file.ReadLine()) != null)
                 {
-                    quiestions[cnt_q] = line;
-                    cnt_q++;
-
+                    qaList.Add(new Tuple<string, string>(question, answer));
                 }
-                else {
-                    answers[cnt_a] = line;
-                    cnt_a++;
-                }
-                counter++;
-
             }
 
             file.Close();
-            
-            
-            
-            for(int i = 0; i < answers.Length; i++){
-                qaList.Add(new Tuple<string,string>(quiestions[i],answers[i]));
 
-            }
-
-         
-            
-            return false;
+            return true;
         }
 
+   
 
         public Tuple<string, string> getRandom()
         {
