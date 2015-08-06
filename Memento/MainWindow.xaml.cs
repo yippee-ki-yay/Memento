@@ -21,25 +21,61 @@ namespace Memento
     public partial class MainWindow : Window
     {
         QuestionManager qm;
+        BesaParser bp;
+        Boolean nenad_pars;
+        Boolean besa_pars;
         Tuple<string, string> curr;
 
         public MainWindow()
         {
             InitializeComponent();
-
+            nextButton.IsEnabled = false;
+            showButton.IsEnabled = false;
+            //two ways of parsing files
+            nenad_pars = false;
+            besa_pars = false;
+            bp = new BesaParser();
             qm = new QuestionManager();
-            qm.loadFile(1);
+            /*
+            qm.loadFile("wut");
             curr = qm.getRandom();
-            pitanjeText.Text = curr.Item1;
+            pitanjeText.Text = curr.Item1;*/
 
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            curr = qm.getRandom();
+            if(nenad_pars)
+                curr = qm.getRandom();
+            if(besa_pars)
+                curr = bp.getRandom();
+            
             pitanjeText.Text = curr.Item1;
             odogovorText.Text = "";
            
+        }
+
+        
+        
+        private void besaParse_Click(object sender, RoutedEventArgs e)
+        {
+            besa_pars = true;
+            nextButton.IsEnabled = true;
+            showButton.IsEnabled = true;
+            bp.parseFile();
+            curr = bp.getRandom();
+            pitanjeText.Text = curr.Item1;
+        }
+
+        private void nenadParse_Click(object sender, RoutedEventArgs e) {
+            nenad_pars = true;
+            nextButton.IsEnabled = true;
+            showButton.IsEnabled = true;
+            qm.loadFile("");
+            curr = qm.getRandom();
+            pitanjeText.Text = curr.Item1;
+
+        
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

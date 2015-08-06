@@ -1,165 +1,65 @@
 1. Kako se naziva prvi korak u procesu razvoja softvera?
-
 -Izrada specifikacije zahteva
-
 2. Definišite pojam ZAHTEV.
-
--Zahtev je svojstvo ili osobina koja se mora iskazati u cilju stvaranja podloge za resavanje nekog
-problema.
-
+-Zahtev je svojstvo ili osobina koja se mora iskazati u cilju stvaranja podloge za resavanje nekog problema.
 3. Na šta se odnose ZAHTEVI?
-
 -Zahtevi se odnose na neke aspekte funkcionisanja sistema koji je predmet analize
-
 4. Odakle po prirodi proizilaze zahtevi?
-
--Proizilaze iz sistema.Predstavljaju slozene kombinacije zahteva razlicitih ljudi na razlicitim nivoima
-organizacione strukture u ambijentu u kojem sistem radi.
-
+-Proizilaze iz sistema.Predstavljaju slozene kombinacije zahteva razlicitih ljudi na razlicitim nivoima organizacione strukture u ambijentu u kojem sistem radi.
 5. Koje osnovne elemente obuhvata oblast znanja Softverski zahtevi u sklopu SWEBOK?(7)
-
--Osnovni softverski zahtevi , Proces zahteva , Iskazivanje zahteva , Analiza zahteva , Specifikacija
-zahteva , Validacija zahteva , Prakticni zahtevi.
-
+-Osnovni softverski zahtevi , Proces zahteva , Iskazivanje zahteva , Analiza zahteva , Specifikacija zahteva , Validacija zahteva , Prakticni zahtevi.
 6. Koje pojmove, prema SWEBOK-nomenklaturi obuhvataju osnovni pojmovi softverskih zahteva? (6)
-
--Definisanje softverskoh zahteva, Procesni i zahtevi proizvoda, Funkcionalni i nefunkcionalni zahtevi ,
-Emergent properties, Merljive zahteve , Zahtevi sistema i zahtevi softvera.
-
+-Definisanje softverskoh zahteva, Procesni i zahtevi proizvoda, Funkcionalni i nefunkcionalni zahtevi , Emergent properties, Merljive zahteve , Zahtevi sistema i zahtevi softvera.
 7. Šta, prema SWEBOK-nomenklaturi obuhvata Proces zahteva? (4)
-
 -Zahtevi modela , zahtevi korisnika,zahtevi za Podrsku i upravljanje, zahtevi za kvalitet i poboljsanja .
-
 8. Šta, prema SWEBOK-nomenklaturi obuhvata Iskazivanje zahteva? (2)
-
 -zahtevi izvora, Elicitation Techniques (iznajmljivanje tehnika u bukvalnom prevodu).
-
 9. Šta, prema SWEBOK-nomenklaturi obuhvata Analiza zahteva? (4)
-
--Klasifikaciju zahteva, Konceptualno modelovanje, Arhitektonski dizajn i alokacija zahteva, ponovno
-pregovaranje u vezi zahteva.
-
+-Klasifikaciju zahteva, Konceptualno modelovanje, Arhitektonski dizajn i alokacija zahteva, ponovno pregovaranje u vezi zahteva.
 10. Šta, prema SWEBOK-nomenklaturi obuhvata Specifikacija zahteva? (3)
-
 -Definisanje sistema, Specifikaciju sistema, Specifikaciju softvera.
-
 11. Šta, prema SWEBOK-nomenklaturi obuhvata Validacija zahteva? (4)
-
 -Pregled zahteva, prototipovi, validacija modela, testovi validacije.
-
 12. Šta, prema SWEBOK-nomenklaturi obuhvataju Prakticni zahtevi? (5)
-
--Ponavljanje procesa zahtava, promena menadzmenta, svojstva zahteva, trazenje skrivenih zahteva,
-uporedjivanje zahteva po prioritetima.
-
+-Ponavljanje procesa zahtava, promena menadzmenta, svojstva zahteva, trazenje skrivenih zahteva, uporedjivanje zahteva po prioritetima.
 13. Koja tri elementa obuhvata Iskazivanje zahteva?
-
 -Pribavljanje , otkrivanje , prikupljanje zahteva.
-
 14. Navedite izvore zahteva. (5) Kakva je uloga Ciljeva sistema?
-
--Ciljevi sistema , domensko znanje pregledi najsireg moguceg skupa ucesnika , radni ambijent,
-organizacioni aspekti. Ciljevi sistema nam predstavljaju cilj koji se mora dostici da bi se sistem smatrao
-uspesnim.
-
+-Ciljevi sistema , domensko znanje pregledi najsireg moguceg skupa ucesnika , radni ambijent, organizacioni aspekti. Ciljevi sistema nam predstavljaju cilj koji se mora dostici da bi se sistem smatrao uspesnim.
 15. Navedite izvore zahteva. (5) Kakva je uloga Domenskog znanja?
-
--Domensko znanje predstavlja znanje projektanata sistema o problemu koje ce sistem koji se izradjuje
-da resava.
-
+-Domensko znanje predstavlja znanje projektanata sistema o problemu koje ce sistem koji se izradjuje da resava.
 16. Navedite izvore zahteva. (5) Kakva je uloga pogleda najšireg moguceg skupa ucesnika?
-
--Sagledavanje sa svih aspekata mogucih korisnika i svih onih koji bi mogli doci u kontak sa
-sistemom.Na taj nacin se prikupljaju informacije o dodatnim zahtevima.
-
-
+-Sagledavanje sa svih aspekata mogucih korisnika i svih onih koji bi mogli doci u kontak sa sistemom.Na taj nacin se prikupljaju informacije o dodatnim zahtevima.
 17. Navedite izvore zahteva. (5) Kakva je uloga radnog ambijenta sistema?
-
--Potrebno je znati u kojim uslovima se sistem koristi, kako bi bio optimizovan za rad u potrebnim
-uslovima.
-
+-Potrebno je znati u kojim uslovima se sistem koristi, kako bi bio optimizovan za rad u potrebnim uslovima.
 18. Navedite izvore zahteva. (5) Kakva je uloga organizacionih aspekata sistema?
-
 -Dobra organizacija za lako, brzo i efikasno koriscenje sistema.
-
 19. Navedite pet osnovnih tehnika iskazivanja/prikupljanja zahteva.
-
 -Intervjuji – tradicionalna tehnika , scenariji , prototipovi , radni sastanci, posmatranje.
-
 20.Kakva je, sa aspekta prikupljanja zahteva, razlika izmeu KUPACA i KORISNIKA?
-
--Sistem se modeluje prema korisnicima ne prema kupcima tako da je prilikom specifikacije zahteva
-razvojni tim u kontaktu iskljucivo sa buducim korisnicima sistema.
-
+-Sistem se modeluje prema korisnicima ne prema kupcima tako da je prilikom specifikacije zahteva razvojni tim u kontaktu iskljucivo sa buducim korisnicima sistema.
 21. Navedite osnovne karakteristike Analize zahteva.
-
--Predstavlja predmet dogovora pri cemu se kljucna svojstva odvajaju od manje vaznih.Cesto
-podrazumeva modeliranje ponasanja krajnjih korisnika u cilju boljeg razumevanja poslovne uloge i funkcija
-sistema kloji je predmet analie.Proces je iterativan i zahteva promene, redefinicije i rafinacije u hodu.Proces je
-iscrpljujuci i zahteva mnogo vremena.
-
+-Predstavlja predmet dogovora pri cemu se kljucna svojstva odvajaju od manje vaznih.Cesto podrazumeva modeliranje ponasanja krajnjih korisnika u cilju boljeg razumevanja poslovne uloge i funkcija sistema kloji je predmet analie.Proces je iterativan i zahteva promene, redefinicije i rafinacije u hodu.Proces je iscrpljujuci i zahteva mnogo vremena.
 22. Navedite osnovne ciljeve Analize zahteva.
-
--Otkrivanje i resavanje konflikta izmedju zahteva.Otkrivanje granica sistema i njegovih interakcija sa
-okruzenjem.Preslikavanje zahteva od strane sistema na zahteve putem softvera.
-
+-Otkrivanje i resavanje konflikta izmedju zahteva.Otkrivanje granica sistema i njegovih interakcija sa okruzenjem.Preslikavanje zahteva od strane sistema na zahteve putem softvera.
 23. Koja je osnovna razlika izmeu FUNKCIONALNIH i NEFUNKCIONALNIH zahteva?
-
--Funkcionalni su mogucnosti, a Nefunkcionalni nametnuta ogranicenja koje resenje treba da
-zadaovoljava.
-
+-Funkcionalni su mogucnosti, a Nefunkcionalni nametnuta ogranicenja koje resenje treba da zadaovoljava.
 24.Kojim formalizmima se moraju opisivati zahtevi?
-
 -Zahtevi se moraju iskazivati formalizmima iz korisnickog domena.
-
 25.Navedite najmanje cetiri od osam osnovnih osobina zahteva.
--
-1.Mogucnost verifikacije unutar zadatih ogranicenja koja ukljucuju resurse.
-2.Promenljivost
-3.Iskazuju se formalizmima iz korisnickog domena.
-4.Moraju biti potrebni i dovoljni.
-5.Moraju biti jedinstveno identifikovani i ukljuceni u proces rukovanja konfiguracijom kroz celokupan
-zivotni ciklus predmeta primopredaje.
-6.Moraju biti jedinstvenoprepoznati u elementima argitekture predmeta primopredaje.
-7.Moraju posedovati jedinstveni prioritet.
-8.Stepen do koga deluje na sistem.
-
+-1.Mogucnost verifikacije unutar zadatih ogranicenja koja ukljucuju resurse. 2.Promenljivost3.Iskazuju se formalizmima iz korisnickog domena. 4.Moraju biti potrebni i dovoljni. 5.Moraju biti jedinstveno identifikovani i ukljuceni u proces rukovanja konfiguracijom kroz celokupan zivotni ciklus predmeta primopredaje. 6.Moraju biti jedinstvenoprepoznati u elementima argitekture predmeta primopredaje. 7.Moraju posedovati jedinstveni prioritet. 8.Stepen do koga deluje na sistem.
 26. Zbog cega je važno dodeliti jedinstven prioritet svakom zahtevu?
-
 -Da bi se mogla odrediti vaznost svakog dela zahteva za buduce korisnike sistema.
-
 27. Navedite osnovnu kategorizciju prioriteta zahteva?
-
 -Esencijalan, vrlo pozeljan , pozeljan , opcion.
-
 28. Obrazložite znacaj mogucnosti pracenja zahteva kroz sve faze životnog ciklusa softvera.
-
--Pracenje zahteva je bitno jer se mogu javiti promene u zahtevima koje razlicito mogu uticati u razlicitim
-fazama razvoja softvera. U nekim fazama se novi zahtevi mogu lako dodati, dok u nekim zahtavaju korenite
-promene ili cak ponovni razvoj od pocetka.
-
+-Pracenje zahteva je bitno jer se mogu javiti promene u zahtevima koje razlicito mogu uticati u razlicitim fazama razvoja softvera. U nekim fazama se novi zahtevi mogu lako dodati, dok u nekim zahtavaju korenite promene ili cak ponovni razvoj od pocetka.
 29. Šta je svrha modelovanja zahteva?
-
--Stvaranje podloga za struktuiranje resenja. Eksperimentisanje u cilju istrazivanja vise verzija resenja.
-Oslonac na apstrakcije u cilju rukovanja slozeniscu. Skracenje vremena izrade proizvoda. Smanjenje troskova
-razvoja. Rukovanje rizicima.
-
+-Stvaranje podloga za struktuiranje resenja. Eksperimentisanje u cilju istrazivanja vise verzija resenja. Oslonac na apstrakcije u cilju rukovanja slozeniscu. Skracenje vremena izrade proizvoda. Smanjenje troskova razvoja. Rukovanje rizicima.
 30. Navedite bar cetiri od sedam tipova modela koji se koriste pri modelovanju zahteva.
--
-1.Model tokova podataka
-2.Model tokova kontrola
-3.Model stanja
-4.Model dogadjaja
-5.Model korisnickih interakcija
-6.Model objekta
-7.Model slucajeva koriscenja
-
+-1.Model tokova podataka 2.Model tokova kontrola 3.Model stanja 4.Model dogadjaja 5.Model korisnickih interakcija 6.Model objekta 7.Model slucajeva koriscenja
 31.Koji elementi imaju direktan uticaj na izbor tipa modela. (4)
-
--Priroda tipa problema koji se resava.
--Nivo ekspertskog znanja analiticara
--Nacin na koji kupac/korisnik iskazuje zahtev
--Raspolozivost metoda i alata
+-Priroda tipa problema koji se resava.-Nivo ekspertskog znanja analiticara-Nacin na koji kupac/korisnik iskazuje zahtev-Raspolozivost metoda i alata
 
 32. Koja je osnovna karakteristika formalnih modela?
 
