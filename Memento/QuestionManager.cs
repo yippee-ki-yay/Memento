@@ -11,17 +11,14 @@ namespace Memento
 {
     public class QuestionManager
     {
-        List<Tuple<string, string>> qaList { get; set; }
+        private List<Tuple<string, string>> qaList { get; set; }
         private Random rnd = new Random();
-        int currIndex = 0;
+        private int currIndex = 0;
  
         public QuestionManager()
         {
             qaList = new List<Tuple<string, string>>();
         }
-
-        //TODO : Ne treba da se pali kao prva opcija vec kao dodatna
-
 
         /// <summary>
         /// Allows user to choose what file with questions/answers he wants to choose
@@ -43,46 +40,49 @@ namespace Memento
         }
 
         /// <summary>
-        /// Ucitava fajl i prosledjuje odredjenoj funkciji za parsiranje tako da moze da se prosiri sa bilo kojojm
+        /// Reads and parses the file with a standard format for this app
+        /// where the Q/A pair is separated by enter
         /// </summary>
-        /// <returns>Vraca da li je sve uspesno proslo</returns>
-        public bool loadFile(int tipParsiranja)
+        public bool parseStandard(string filePath)
         {
-            string filePath = openQuestions();
+            if (filePath == "")
+                return false;
 
-            if (filePath.Equals(""))
+            string question, answer;
+
+            // Read the file and display it line by line.
+            System.IO.StreamReader file =
+               new System.IO.StreamReader(filePath);
+
+            while ((question = file.ReadLine()) != null)
+            {
+                if ((answer = file.ReadLine()) != null)
+                {
+                    qaList.Add(new Tuple<string, string>(question, answer));
+                }
+            }
+
+            file.Close();
+
+            return true;
+            
+        }
+
+        /// <summary>
+        /// It reads and parses the file 
+        /// Format: NUMBER. pitanje ? odogovor
+        /// </summary>
+        public bool parseOriginal(string filePath)
+        {
+            if (filePath == "")
                 return false;
 
             string text = System.IO.File.ReadAllText(filePath, Encoding.ASCII);
 
-            if (tipParsiranja == 1)
-                return parseOriginal(text);
-            else if (tipParsiranja == 2)
-                return parseStandard(text);
-
-            return false;
-        }
-
-        /// <summary>
-        /// Pisi ovde tvoju funkciju da isparsira onaj format sto si napravio
-        /// </summary>
-        public bool parseStandard(string text)
-        {
-            return false;
-        }
-
-        /// <summary>
-        /// Parsira fajl dok je u originalnoj formi polu struktiruan
-        /// NUMBER. pitanje ? odogovor
-        /// </summary>
-        public bool parseOriginal(string filePath)
-        {
-            string text = System.IO.File.ReadAllText(filePath, Encoding.ASCII);
-
+            //split each QA pair at the beginig every question starts with "Number."
             string[] parts = Regex.Split(text, @"\b\d+\.");
 
-            //string[] parts = results.Split('?');
-
+            //we split the pair Q/A (every question ends with ? )
             for (int i = 1; i < parts.Length; ++i)
             {
                 string[] t = parts[i].Split('?');

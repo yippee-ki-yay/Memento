@@ -15,12 +15,12 @@ using System.Windows.Shapes;
 namespace Memento
 {
     /// <summary>
-    /// Interaction logic for LoaderWindow.xaml
+    /// A window for seting the path of the Q/A file and picking a format for your text
     /// </summary>
     public partial class LoaderWindow : Window
     {
-        QuestionManager qm;
-        string filePath;
+        private QuestionManager qm;
+        private string filePath;
 
         public LoaderWindow(QuestionManager manager)
         {
@@ -41,16 +41,17 @@ namespace Memento
 
         private void Import_Click(object sender, RoutedEventArgs e)
         {
+            //we check if the file path is valid and depending on the format chosen we parse the file
             if(filePath != "")
             {
                 if(qaCheck.IsChecked.Value)
                     if(qm.parseOriginal(filePath))
                      {
-                     this.Close();
+                        this.Close();
                      }
                      else
                      {
-                      //failed parsing
+                         Console.WriteLine(filePath + " failed to parse with original formating");
                      }
 
                 if (standardCheck.IsChecked.Value)
@@ -60,7 +61,7 @@ namespace Memento
                     }
                     else
                     {
-                        //failed parsing
+                        Console.WriteLine(filePath + " failed to parse with standard formating");
                     }
             }
         }

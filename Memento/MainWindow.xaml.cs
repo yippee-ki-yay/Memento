@@ -20,26 +20,16 @@ namespace Memento
     /// </summary>
     public partial class MainWindow : Window
     {
-        QuestionManager qm;
-        BesaParser bp;
-        Boolean nenad_pars;
-        Boolean besa_pars;
-        Tuple<string, string> curr;
+        private QuestionManager qm;
+        private Tuple<string, string> curr;
 
         public MainWindow()
         {
             InitializeComponent();
             nextButton.IsEnabled = false;
             showButton.IsEnabled = false;
-            //two ways of parsing files
-            nenad_pars = false;
-            besa_pars = false;
-            bp = new BesaParser();
+  
             qm = new QuestionManager();
-            /*
-            qm.loadFile("wut");
-            curr = qm.getRandom();
-            pitanjeText.Text = curr.Item1;*/
 
         }
 
