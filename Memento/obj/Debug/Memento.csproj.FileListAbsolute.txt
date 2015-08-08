@@ -37,3 +37,5 @@ C:\Users\Besermenji\Desktop\mmm\Memento\Memento\obj\Debug\Memento_MarkupCompile.
 C:\Users\Besermenji\Desktop\mmm\Memento\Memento\obj\Debug\Memento.g.resources
 C:\Users\Besermenji\Desktop\mmm\Memento\Memento\obj\Debug\Memento.Properties.Resources.resources
 C:\Users\Besermenji\Desktop\mmm\Memento\Memento\obj\Debug\Memento.csproj.GenerateResource.Cache
+C:\Users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\LoaderWindow.baml
+C:\Users\korisnik\documents\visual studio 2013\Projects\Memento\Memento\obj\Debug\LoaderWindow.g.cs

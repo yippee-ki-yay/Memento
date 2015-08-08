@@ -89,5 +89,16 @@ namespace Memento
         {
             odogovorText.Text = curr.Item2;
         }
+
+        private void Loader_Click(object sender, RoutedEventArgs e)
+        {
+            LoaderWindow loaderWindow = new LoaderWindow();
+            loaderWindow.ShowDialog();
+        }
+
+        private void ExitApp_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

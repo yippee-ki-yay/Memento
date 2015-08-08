@@ -19,9 +19,9 @@
 
         <DockPanel>
             <Menu DockPanel.Dock="Top" Margin="0,0,70,0">
-                <MenuItem Header="_File">
-                    <MenuItem Header="Parse _Besa Files" x:Name="besaParse"  Click="besaParse_Click"/>
-                    <MenuItem Header="Parse _Nenad Files" x:Name="nenadParse" Click="nenadParse_Click"/>
+                <MenuItem Header="File">
+                    <MenuItem Header="Load Script" x:Name="loaderForm" Click="Loader_Click"/>
+                    <MenuItem Header="Exit" x:Name="exit" Click="ExitApp_Click"/>
                 </MenuItem>
             </Menu>
             <StackPanel Margin="0,0,0,84" Width="703" RenderTransformOrigin="0.562,0.515"></StackPanel>

@@ -213,9 +213,9 @@ slucajeva koriscenja
 56. Kada se izmeu slucajeva korišcenja koristi veza generalizacije?
 -Koristi se kada vise slucajeva koriscenja poseduje neku zajednicki pod-zadatak ali svaki od njih to
 posmatra iz svog ugla.
-57. Da li specijalizovani slucaj korišcenja može posedovati vlastiti skup ucesnika ( 1. Da 2. Ne)?  
+57. Da li specijalizovani slucaj korišcenja može posedovati vlastiti skup ucesnika?
 -Specijalizovani slucaj koriscenja moze integrirati sa novim ucesnicima.
-58. Da li specijalizovani slucaj korišcenja može proširiti preduslove ( 1. Da 2. Ne)?
+58. Da li specijalizovani slucaj korišcenja može proširiti preduslove?
 -Moze prosiriti preduslove i post-uslove.
 59. Kada se izmeu slucajeva korišcenja koristi veza sadržavanja?
 Kada skup slucajeva koriscenja poseduje zajednicko ponasanje, koje je moguce modelovati jednim
@@ -223,7 +223,7 @@ slucajem koriscenja, tada je moguce koristiti ovaj tip veze.
 60. Koliko puta se može izvršiti sadržani slucaj korišcenja?
 -Ako X<<sadrzi>>Y indicira da se izvrsavanjem procesa X uvek podrazumeva izvrsavanje procesa Y
 najmanje jednom.
-61. Da li sadržani slucaj korišcenja mora ocuvati post-uslove ( 1. Da 2. Ne)?
+61. Da li sadržani slucaj korišcenja mora ocuvati post-uslove?
 -Ne.
 62.Kada se izmeu slucajeva korišcenja koristi veza proširivanja?
 -Sluzi za definisanje tacke prosirenja nekog slucaja koriscenja. Koristimo <<extend>> kada modelujemo
