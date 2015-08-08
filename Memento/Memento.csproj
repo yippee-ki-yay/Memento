@@ -58,6 +58,7 @@
     <Compile Include="LoaderWindow.xaml.cs">
       <DependentUpon>LoaderWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="QaPair.cs" />
     <Compile Include="QuestionManager.cs" />
     <Page Include="LoaderWindow.xaml">
       <SubType>Designer</SubType>

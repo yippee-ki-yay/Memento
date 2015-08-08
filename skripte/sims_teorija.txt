@@ -1,9 +1,9 @@
 1. Kako se naziva prvi korak u procesu razvoja softvera?
--Izrada specifikacije zahteva
-2. Definišite pojam ZAHTEV.
+-Izrada - specifikacije zahteva
+2. Definisite pojam ZAHTEV?
 -Zahtev je svojstvo ili osobina koja se mora iskazati u cilju stvaranja podloge za resavanje nekog
 problema.
-3. Na šta se odnose ZAHTEVI?
+3. Na sta se odnose ZAHTEVI?
 -Zahtevi se odnose na neke aspekte funkcionisanja sistema koji je predmet analize
 4. Odakle po prirodi proizilaze zahtevi?
 -Proizilaze iz sistema.Predstavljaju slozene kombinacije zahteva razlicitih ljudi na razlicitim nivoima
@@ -14,18 +14,18 @@ zahteva , Validacija zahteva , Prakticni zahtevi.
 6. Koje pojmove, prema SWEBOK-nomenklaturi obuhvataju osnovni pojmovi softverskih zahteva?
 -Definisanje softverskoh zahteva, Procesni i zahtevi proizvoda, Funkcionalni i nefunkcionalni zahtevi ,
 Emergent properties, Merljive zahteve , Zahtevi sistema i zahtevi softvera.
-7. Šta, prema SWEBOK-nomenklaturi obuhvata Proces zahteva?
+7. Sta, prema SWEBOK-nomenklaturi obuhvata Proces zahteva?
 -Zahtevi modela , zahtevi korisnika,zahtevi za Podrsku i upravljanje, zahtevi za kvalitet i poboljsanja .
-8. Šta, prema SWEBOK-nomenklaturi obuhvata Iskazivanje zahteva?
+8. Sta, prema SWEBOK-nomenklaturi obuhvata Iskazivanje zahteva?
 -zahtevi izvora, Elicitation Techniques (iznajmljivanje tehnika u bukvalnom prevodu).
-9. Šta, prema SWEBOK-nomenklaturi obuhvata Analiza zahteva?
+9. Sta, prema SWEBOK-nomenklaturi obuhvata Analiza zahteva?
 -Klasifikaciju zahteva, Konceptualno modelovanje, Arhitektonski dizajn i alokacija zahteva, ponovno
 pregovaranje u vezi zahteva.
-10. Šta, prema SWEBOK-nomenklaturi obuhvata Specifikacija zahteva?
+10. Sta, prema SWEBOK-nomenklaturi obuhvata Specifikacija zahteva?
 -Definisanje sistema, Specifikaciju sistema, Specifikaciju softvera.
-11. Šta, prema SWEBOK-nomenklaturi obuhvata Validacija zahteva?
+11. Sta, prema SWEBOK-nomenklaturi obuhvata Validacija zahteva?
 -Pregled zahteva, prototipovi, validacija modela, testovi validacije.
-12. Šta, prema SWEBOK-nomenklaturi obuhvataju Prakticni zahtevi?
+12. Sta, prema SWEBOK-nomenklaturi obuhvataju Prakticni zahtevi?
 -Ponavljanje procesa zahtava, promena menadzmenta, svojstva zahteva, trazenje skrivenih zahteva,
 uporedjivanje zahteva po prioritetima.
 13. Koja tri elementa obuhvata Iskazivanje zahteva?
@@ -37,7 +37,7 @@ uspesnim.
 15. Navedite izvore zahteva.Kakva je uloga Domenskog znanja?
 -Domensko znanje predstavlja znanje projektanata sistema o problemu koje ce sistem koji se izradjuje
 da resava.
-16.Navedite izvore zahteva.Kakva je uloga pogleda najšireg moguceg skupa ucesnika?
+16.Navedite izvore zahteva.Kakva je uloga pogleda najsireg moguceg skupa ucesnika?
 -Sagledavanje sa svih aspekata mogucih korisnika i svih onih koji bi mogli doci u kontak sa
 sistemom.Na taj nacin se prikupljaju informacije o dodatnim zahtevima.
 17.Navedite izvore zahteva.Kakva je uloga radnog ambijenta sistema?
@@ -45,9 +45,9 @@ sistemom.Na taj nacin se prikupljaju informacije o dodatnim zahtevima.
 uslovima.
 18. Navedite izvore zahteva.Kakva je uloga organizacionih aspekata sistema?
 -Dobra organizacija za lako, brzo i efikasno koriscenje sistema.
-19. Navedite pet osnovnih tehnika iskazivanja/prikupljanja zahteva?
--Intervjuji – tradicionalna tehnika , scenariji , prototipovi , radni sastanci, posmatranje.
-20.Kakva je, sa aspekta prikupljanja zahteva, razlika izmeu KUPACA i KORISNIKA?
+19. Navedite pet osnovnih tehnika iskazivanja prikupljanja zahteva?
+-Intervjuji tradicionalna tehnika , scenariji , prototipovi , radni sastanci, posmatranje.
+20.Kakva je, sa aspekta prikupljanja zahteva, razlika izmedju KUPACA i KORISNIKA?
 -Sistem se modeluje prema korisnicima ne prema kupcima tako da je prilikom specifikacije zahteva
 razvojni tim u kontaktu iskljucivo sa buducim korisnicima sistema.
 21. Navedite osnovne karakteristike Analize zahteva?
@@ -58,7 +58,7 @@ iscrpljujuci i zahteva mnogo vremena.
 22. Navedite osnovne ciljeve Analize zahteva?
 -Otkrivanje i resavanje konflikta izmedju zahteva.Otkrivanje granica sistema i njegovih interakcija sa
 okruzenjem.Preslikavanje zahteva od strane sistema na zahteve putem softvera.
-23. Koja je osnovna razlika izmeu FUNKCIONALNIH i NEFUNKCIONALNIH zahteva?
+23. Koja je osnovna razlika izmedju FUNKCIONALNIH i NEFUNKCIONALNIH zahteva?
 -Funkcionalni su mogucnosti, a Nefunkcionalni nametnuta ogranicenja koje resenje treba da
 zadaovoljava.
 24.Kojim formalizmima se moraju opisivati zahtevi?
@@ -73,15 +73,15 @@ zivotni ciklus predmeta primopredaje.
 - Moraju biti jedinstvenoprepoznati u elementima argitekture predmeta primopredaje.
 - Moraju posedovati jedinstveni prioritet.
 - Stepen do koga deluje na sistem.
-26. Zbog cega je važno dodeliti jedinstven prioritet svakom zahtevu?
+26. Zbog cega je vaZno dodeliti jedinstven prioritet svakom zahtevu?
 -Da bi se mogla odrediti vaznost svakog dela zahteva za buduce korisnike sistema.
 27. Navedite osnovnu kategorizciju prioriteta zahteva?
 -Esencijalan, vrlo pozeljan , pozeljan , opcion.
-28. Obrazložite znacaj mogucnosti pracenja zahteva kroz sve faze životnog ciklusa softvera?
+28. ObrazloZite znacaj mogucnosti pracenja zahteva kroz sve faze Zivotnog ciklusa softvera?
 -Pracenje zahteva je bitno jer se mogu javiti promene u zahtevima koje razlicito mogu uticati u razlicitim
 fazama razvoja softvera. U nekim fazama se novi zahtevi mogu lako dodati, dok u nekim zahtavaju korenite
 promene ili cak ponovni razvoj od pocetka.
-29. Šta je svrha modelovanja zahteva?
+29. Sta je svrha modelovanja zahteva?
 -Stvaranje podloga za struktuiranje resenja. Eksperimentisanje u cilju istrazivanja vise verzija resenja.
 Oslonac na apstrakcije u cilju rukovanja slozeniscu. Skracenje vremena izrade proizvoda. Smanjenje troskova
 razvoja. Rukovanje rizicima.
@@ -96,29 +96,29 @@ razvoja. Rukovanje rizicima.
 31.Koji elementi imaju direktan uticaj na izbor tipa modela?
 -Priroda tipa problema koji se resava.
 -Nivo ekspertskog znanja analiticara
--Nacin na koji kupac/korisnik iskazuje zahtev
+-Nacin na koji kupac-korisnik iskazuje zahtev
 -Raspolozivost metoda i alata
 32. Koja je osnovna karakteristika formalnih modela?
 -Formalni modeli koriste notacije zasnovane na elementima koriscene metodologije modelovanja.
-33. Šta se ocekuje od modela (Navedite bar cetiri od šest elemenata)?
+33. Sta se ocekuje od modela (Navedite bar cetiri od sest elemenata)?
 -Da obezbedi preciznost pri modelovanju.
 -Da poseduje internu i eksternu konzistentnost.
 -Da se moze obrazloziti na jednostavan nacin.
 -Da se moze menjati uz minimalan napor.
 -Da bude sto je moguce jednostavniji ali ne i banalan.
-34. Šta se ocekuje od zahteva?
+34. Sta se ocekuje od zahteva?
 -Bilo koji skup zahteva treba da opise sve delove sistema uljucujuci i njegove granice.
 -Neophodno je poznavati koji su objekti ili entiteti ukljuceni u sistem, kakva je njihova struktura (atributi),
 na koji nacin su povezani i koje transformacije nad njima obavljaju.
 -Po izolovanju elemenata sistema neophodno je koristiti detaljnije tehnike za predstavljanje specificnosti
 analiziranog sistema.
-35.Šta podrazumeva VIZUALNO MODELOVANJE?
+35.Sta podrazumeva VIZUALNO MODELOVANJE?
 -Predstavlja modelovanje uz oslonac na neku standardnizovanu graficku notaciju.
-36. Šta predstavlja UML?
+36. Sta predstavlja UML?
 -UML je standardni je jezik za vizuelizacuju, specificiranje , konstrukciju i dokumentovanje softverskih
 proizvoda.
 -UML predstavlja standardni jezik za modelovanje sistema koji sadrze softver.
-37. Za šta se koristi UML?
+37. Za sta se koristi UML?
 -Koristi se za vizuelizaciju (graficki jezik), specifikaciju (izrada preciznih nedvosmislenih i potpunih
 modela), konstukciju (modeli se direktno povezju sa skupom programskih jezika) i dokumentovanje produkta
 softverskih sistema.
@@ -127,15 +127,15 @@ softverskih sistema.
 -Dijagrami (Graficke predstave sadrzaja razlicitih aspekata sistema)
 -Elementi modela (gradivni elementi dijagrama)
 -Opsti mehanizmi (Dopune, komentari, prosirenja ...)
-39.Šta predstavljaju Pogledi kao element UML-a. Navedite osnovne poglede?
+39.Sta predstavljaju Pogledi kao element UML-a. Navedite osnovne poglede?
 -Pogledi = razliciti aspekti modelovanja sistema:
 -use case
 -funkcionalni pogled korisnika na sistem (Actor)
 -logicki pogled
--pogled sa aspekta strukture (staticka athitektura sistema/resenja)
--pogled sa aspekta dinamike (aspekti komunikacije i sinhronizacije u sklopu sistema/resenja)
+-pogled sa aspekta strukture (staticka athitektura sistema-resenja)
+-pogled sa aspekta dinamike (aspekti komunikacije i sinhronizacije u sklopu sistema-resenja)
 -fizicka arhitektura sistema.
-40. Šta predstavljaju Dijagrami kao element UML-a, Navedite osnovne dijagrame?
+40. Sta predstavljaju Dijagrami kao element UML-a, Navedite osnovne dijagrame?
 -Graficke predstave sadrzaja razlicitih aspekata sistema.
 -Dijagram slucajeva koriscenja (use case)
 -Dijagram klasa (Class)
@@ -146,7 +146,7 @@ softverskih sistema.
 -Dijagram aktivnosti (Activity)
 -Dijagram delova koda (Component)
 -Dijagram fizicke arhitekture (Deployment)
-41.Šta predstavljaju Elementi UML-a,  Navedite br 6 od 12 osnovnih elemenata UML-a?
+41.Sta predstavljaju Elementi UML-a,  Navedite br 6 od 12 osnovnih elemenata UML-a?
 -Gradivni elementi dijagrama
 -Klasa
 -Objekat
@@ -160,23 +160,23 @@ softverskih sistema.
 -Zabeleska
 -Poruka
 -Akcija
-42. Šta predstavljaju Opšti mehanizmi UML-a?
+42. Sta predstavljaju Opsti mehanizmi UML-a?
 -Dopune, komentari, prosirenja i sl.
 43. Koliko nivoa poseduje metamodel UML-a?
 -Cetiri nivoa : Meta-metamodel , metamodel , model ,Korisnicki objekti.
 44. Koja je osnovna namena USE-CASE dijagrama?
--Izolovanje i opis funkcionalnih zahteva prema modelovanom sistemu/resenju.
+-Izolovanje i opis funkcionalnih zahteva prema modelovanom sistemu-resenju.
 -Formiranje jasnog i konzistentnog opisa onoga sto sistem treba da radi.
--Stvaranje podloga za formiranje sistemskih testova u cilju verifikacije i validacije sistema/resenja.
+-Stvaranje podloga za formiranje sistemskih testova u cilju verifikacije i validacije sistema-resenja.
 -Stvaranje podloge za povezivanje funkcionalnih zahteva sa klasama implementiranim u
-sistemu/resenju.
-45. Šta predstavlja slucaj korišcenja?
+sistemu-resenju.
+45. Sta predstavlja slucaj koriscenja?
 -Slucaj koriscenja predstavlja specifikaciju nuza akcija, ukljucujuci i razliciti varijante, koje sistem obavlja
 u interakciji sa ucesnicima.
-46. Kako se definiše ucesnik (akter)?
+46. Kako se definise ucesnik (akter)?
 -Neko ili nesto u interakciji sa sistemom (razmenjuju informacije sa sistemom)
 -Akter predstavlja ulogu u odnosu na sistem, ne nekog pojedinacnog korisnika sistema.
-47. Šta predstavlja dijagram slucajeva korišcenja? Koja cetiri elementa on poseduje?
+47. Sta predstavlja dijagram slucajeva koriscenja Koja cetiri elementa on poseduje?
 -Dijagram slucajeva koriscenja prikazuje odnose izmedju ucesnika i slucajeva koriscenja u sklopu
 sistema.
 -Sadrzi :
@@ -184,89 +184,88 @@ sistema.
 -Ucesnike sa kojima je sistem u interakciji
 -Slucajeve koriscenja ili servise koje sistem pruza
 -Veze izmedju gore nabrojanih elemenata
-48. Šta se podrazumeva pod granicom sistema?
+48. Sta se podrazumeva pod granicom sistema?
 -Linija razdvajanja izmedju sistema i okruzenja
 -Svi slucajevi koriscenja se nalaze unutar granica sistema
 -Svi ucesnici se nalaze van granica sistema
-49. Kakva je razlika izmeu veze sadržavanja i veze proširivanja?
+49. Kakva je razlika izmedju veze sadrZavanja i veze prosirivanja?
 -Koristimo <<extend>> kada modelujemo prosiranja ili varijacije nekog slucaja koriscenja koji postoji kao
 autonomna celina
 -Koristimo <<include>> kada zelimo da podelmo zajednicko ponasanje izmedju dva ili vise slucajeva
 koriscenja
-50. Gde se, sa aspekta sistema, nalaze slucajevi korišcenja?
+50. Gde se, sa aspekta sistema, nalaze slucajevi koriscenja?
 -Svi slucajevi koriscenja se nalaze unutar granica sistema.
 51.Gde se, sa aspekta sistema, nalaze ucesnici?
 Svi ucesnici se nalaze van granica sistema.
-52. Ko inicira slucaj korišcenja?
+52. Ko inicira slucaj koriscenja?
 -Slucaj koriscenja se uvek inicira od strane aktera.
-53. Koji tip veze je jedino dozvoljen izmeu ucesnika?
+53. Koji tip veze je jedino dozvoljen izmedju ucesnika?
 -Kada vise ucesnika u sklopu svojih uloga ucestvuje u sklopu neke opste uloge njihov odnos se opisuje
 generalizacijom.
-54. Šta predstavlja opis slucaja korišcenja?
+54. Sta predstavlja opis slucaja koriscenja?
 -Dokument koji sadrzi detaljnu specifikaciju slucaja koriscenja
 -Sadrzaj moze biti obican tekstualni opis ili struktuirani tekstualni opis.
-55. Koji tipovi veza su dozvoljeni izmeu slucajeva korišcenja?
+55. Koji tipovi veza su dozvoljeni izmedju slucajeva koriscenja?
 -Generalizacija : generalizovan slucaj koriscenja opisuje ponasanje zajednicko za grupu specijalizovanih
 slucajeva koriscenja
 -Ukljucivanje (inclusion) : slucaj koriscenja je deo drugog slucaja koriscenja
 -Prosirivanje (extension) : slucaj koriscenja moze prosiriti drugi slucaj koriscenja
-56. Kada se izmeu slucajeva korišcenja koristi veza generalizacije?
+56. Kada se izmedju slucajeva koriscenja koristi veza generalizacije?
 -Koristi se kada vise slucajeva koriscenja poseduje neku zajednicki pod-zadatak ali svaki od njih to
 posmatra iz svog ugla.
-57. Da li specijalizovani slucaj korišcenja može posedovati vlastiti skup ucesnika?
+57. Da li specijalizovani slucaj koriscenja moZe posedovati vlastiti skup ucesnika?
 -Specijalizovani slucaj koriscenja moze integrirati sa novim ucesnicima.
-58. Da li specijalizovani slucaj korišcenja može proširiti preduslove?
+58. Da li specijalizovani slucaj koriscenja moZe prosiriti preduslove?
 -Moze prosiriti preduslove i post-uslove.
-59. Kada se izmeu slucajeva korišcenja koristi veza sadržavanja?
+59. Kada se izmedju slucajeva koriscenja koristi veza sadrZavanja?
 Kada skup slucajeva koriscenja poseduje zajednicko ponasanje, koje je moguce modelovati jednim
 slucajem koriscenja, tada je moguce koristiti ovaj tip veze.
-60. Koliko puta se može izvršiti sadržani slucaj korišcenja?
+60. Koliko puta se moZe izvrsiti sadrZani slucaj koriscenja?
 -Ako X<<sadrzi>>Y indicira da se izvrsavanjem procesa X uvek podrazumeva izvrsavanje procesa Y
 najmanje jednom.
-61. Da li sadržani slucaj korišcenja mora ocuvati post-uslove?
+61. Da li sadrZani slucaj koriscenja mora ocuvati post-uslove?
 -Ne.
-62.Kada se izmeu slucajeva korišcenja koristi veza proširivanja?
+62.Kada se izmedju slucajeva koriscenja koristi veza prosirivanja?
 -Sluzi za definisanje tacke prosirenja nekog slucaja koriscenja. Koristimo <<extend>> kada modelujemo
 prosirenje ili varijacije nekog slucaja koeiscenja koji postoji kao autonomna celina.
-63. Da li prošireni slucaj korišcenja mora eksplicitno deklarisati sve svoje tacke proširenja ( 1. Da 2. Ne)?
+63. Da li prosireni slucaj koriscenja mora eksplicitno deklarisati sve svoje tacke prosirenja?
 -Da.
-5
-64. Šta je stereotip sa aspekta UML notacije?
+64. Sta je stereotip sa aspekta UML notacije?
 -Konstrukcija koje prosiruje UML recnik.
 -Dodaje nova znacenja postojecim entitetima.
 -ogranicen je sa <<>> delimiterima.
-65.Šta je namena UML dijagrama aktivnosti?
+65.Sta je namena UML dijagrama aktivnosti?
 -Namena dijagrama aktivnosti je modelovanje toka aktivnosti u sklopu sa postupkom koji je deo neke
 slozenije aktivnosti. Kod projekata koji koriste modele slucajeva koriscenja dijagram aktivnosti se moze iskoristiti
 za detaljnije modelovanje posmatranog slucaja koriscenja. Dijagrami aktivnosti se mogu koristiti nezavisno od
 slucajeva koriscenja za modelovanje funkcija na nivou poslovnog ponasanja.
-66. Na šta se fokusira UML dijagram aktivnosti?
+66. Na sta se fokusira UML dijagram aktivnosti?
 -Posto se modeluje postupak, dijagram aktivnosti se fokusira na redosled aktivnosti i uslove koji
 upravljaju tokom procesa koji se opisuje.
-67. Šta predstavlja aktivnost u sklopu UML dijagrama aktivnosti?
+67. Sta predstavlja aktivnost u sklopu UML dijagrama aktivnosti?
 -Predstavlja skup operacija neophodnih za obavljanje nekog pojedinacnog posla pri cemu dolazi do
 iniciranja akcija koje uticu na stanje sistema ili davanje povratnih informacija vrednosti neophodnih za sintezu
 upravljanja u sklopu posla.
-68. Šta predstavljaju plivacke staze u sklopu UML dijagrama aktivnosti?
+68. Sta predstavljaju plivacke staze u sklopu UML dijagrama aktivnosti?
 -Aktivnosti se grupisu u vertikalne ili horizontalne zone oivicene isprekidanim linijama. Svaka zona
 predstavlja pojas odgovornosti, koji obicno implementira skuo klasa ili objekata. Npr jedna plivacka staza moze
 predstavljati objekte vise klasa koji konkretno obavljaju jedinstvenu aktivnost.
-69. Šta definišu UML dijagrami interakcija?
+69. Sta definisu UML dijagrami interakcija?
 -Desinisu nacin odvijanja upravljanja razmatranjem odnosa izmedju objekata.
 70. Koji su osnovni UML dijagrami interakcija?
 -Dijagram sekvence i dijagram saradnje.
-71. Šta predstavlja UML dijagram sekvence?
+71. Sta predstavlja UML dijagram sekvence?
 -Deo UML-a koji omogucava graficko predstavljanje hronoloskog ponasanja sistema.
-72.Šta se opisuje pomocu UML dijagrama sekvence?
+72.Sta se opisuje pomocu UML dijagrama sekvence?
 -Opisuje se zivotni vek objekta u defunisanom vreenskom periodu.
-73. Šta prikazuje horizontalna osa dijagrama sekvence?
+73. Sta prikazuje horizontalna osa dijagrama sekvence?
 -Uloge objekta koje odslikavaju pojedinacne objekte u okviru modelovane saradnje.
 74.Navedite osnovne elemente UML dijagrama sekvence?
 -Objekti, zivotne linije , ucesnici , fokus kontrole , poruke.
-75. Šta modeluje poruka u sklopu UML dijagrama sekvence?
+75. Sta modeluje poruka u sklopu UML dijagrama sekvence?
 -Poruka modeluje komunikaciju izmedju objekata. Ona prenosi informacije u cilju obezbedjenja izvrsenja
 aktivnosti. Prijem poruke pbicno rezultuje nekom reakcijom. Poruka se moze smatrati pokretacem.
-76. Šta predstavlja rekurzivna poruka u sklopu UML dijagrama sekvence?
+76. Sta predstavlja rekurzivna poruka u sklopu UML dijagrama sekvence?
 -Poruka koju objeat sam sebi salje.
 77. Navedite osnovne korake pri preiranju dijagrama sekvence?
 - Ustanoviti kontakst interakcije (sistem, podsistem, operacije ili klasa, jedan scenario korisnickih
@@ -279,10 +278,10 @@ definisanje kompozicije poruka)
 - Po potrebi specificirati vremenska ili prostorna ogranicenja (dodatna obelezja poruka koje se
 razmenjuju)
 - Po potrebi svakoj poruci dodati preduslove postuslove
-78. Šta predstavlja UML dijagram saradnje?
+78. Sta predstavlja UML dijagram saradnje?
 -Deo UML-a koji omogucuje graficko predstavljanje interakcije izmedju objekata, kod koga objekti mogu
 biti razmesteni bilo gde na dijagramu.
-79. Opišite osnovne razlike izmeu UML dijagrama sekvenc i UML dijagrama saradnje?
+79. Opisite osnovne razlike izmedju UML dijagrama sekvenc i UML dijagrama saradnje?
 -Dijagram sekvence jasno pokazuje redosled poruka dok se sa dijagrama saradnje redosked poruka
 tesko uocava. Dijagram sekvence ima veliki broj opcija za specificiranje detalja, dok dijagram saradnje ima manji
 broj notacionih mogucnosti.Dijagram saradnje je ekonomican sa aspekta koriscenja prostora dok dijagram
@@ -312,23 +311,23 @@ neodredjenosti (za te namene je pogodniji dijagram aktivnosti).
 -zivotni ciklus posmatranog objekta
 -dogadjaje koji uzrokuju prelaze stanja
 -akcije koje si posledica prelaza stanja
-87. Šta predstavlja tranzicija u sklopu UML diajgrama stanja? Koje elemente ona poseduje?
+87. Sta predstavlja tranzicija u sklopu UML diajgrama stanja Koje elemente ona poseduje?
 -Relacija izmedju dva stanja.Poseduje sledece elemente :
--izvorisno stanje – stanje na koje deluje tranzicija
--pobudni dogadjaj – njegov prijem pobudjuje tranziciju
--zastitni uslov – uslov pobude tranzicije
--akcija – izvrsivo nedeljivo procesiranje koje moze direktno delovati na objekat i indirektno uticati
+-izvorisno stanje  stanje na koje deluje tranzicija
+-pobudni dogadjaj  njegov prijem pobudjuje tranziciju
+-zastitni uslov  uslov pobude tranzicije
+-akcija  izvrsivo nedeljivo procesiranje koje moze direktno delovati na objekat i indirektno uticati
 na stanja koja su dostizna iz izvorisnog stanja
--odredisno stanje – stanje koje je aktivno po zavrsetku tranzicije
-88.Šta predstavlja SPECIFIKACIJA DIZAJNA?
+-odredisno stanje stanje koje je aktivno po zavrsetku tranzicije
+88.Sta predstavlja SPECIFIKACIJA DIZAJNA?
 -Predstavlja korak u kome se analiza zahteva prevodi u arhitekturu sistema koji je predmet
 projektovanja.
-89. Šta definiše UML specifikacija dizajna?
+89. Sta definise UML specifikacija dizajna?
 -Definise nacin realizacije (implementacije) slucajeva koriscenja.
-90. Cime se vrši implentacija slucajeva korišcenja?
+90. Cime se vrsi implentacija slucajeva koriscenja?
 -Saradnjom klasa.
 91. Navedite osnovne elemente UML specifikacije dizajna?
--Segregacija – razlaganje funkcionalne specifikacije na module
+-Segregacija razlaganje funkcionalne specifikacije na module
 -hijerarhijsko organizovanje modula
 -definisanje tokova podataka izmedju modula
 -definisanje strukture spoljasnjih skladista podataka
@@ -338,123 +337,123 @@ projektovanja.
 -definisanje unutrasnje strukture svakog algoritma
 92. Navedite cetiri osnovna tipa veza u sklopu UML dijagrama klasa?
 -Asocijativnost, zavisnost, generalizacija, realizacija
-93. Šta modeluje asocijacija izmeu klasa?
+93. Sta modeluje asocijacija izmedju klasa?
 -Opisuje grupu veza sa zajednickom strukturom i semantikom i modeluje semanticku vezu izmedju
 klasa.
-94. Kakva je razlika izmeu AGREGACIJE i KOMPOZICIJE?
+94. Kakva je razlika izmedju AGREGACIJE i KOMPOZICIJE?
 -I agregacija i kompozicija modeluju znacenje deo-celina ili deo-deo preko koje su objekti koji
 predstavljaju delove celine povezani sa objektom koji predstavlja celinu.Kod agregacije delovi ne dele sudbinu
 celine, dok kod kompozicije delovi moraju da dele sudbinu celine.
 95. Kada je neophodno koristiti ASOCIJATIVNE KLASE pri UML specifikaciji dizajna?
--Asocijativna klasa je neophodna kod relacija više prema više i ona jedino može da sadrži
-informacije koje su jedinstvene za relaciju izmeu te dve klase.
-96. Šta podrazumeva veza ZAVISNOSTI?
+-Asocijativna klasa je neophodna kod relacija vise prema vise i ona jedino moZe da sadrZi
+informacije koje su jedinstvene za relaciju izmedju te dve klase.
+96. Sta podrazumeva veza ZAVISNOSTI?
 -Podrazumeva vezu koja opisuje medjuzavisnost elemenata modela kod koje promena u sklopu jednog
 (nezavisnog) elementa uzrokuje promenu kod drugog (zavisnog) eementa.
-97. Šta podrazumeva veza RAFINACIJE?
+97. Sta podrazumeva veza RAFINACIJE?
 -Podrazumeva vezu izmedju jedne iste stvari na razlicitim nivoima apstrakcije.
-98.Kakva je suštinska razlika u prirodi veza ZAVISNOSTI i RAFINACIJA?
+98.Kakva je sustinska razlika u prirodi veza ZAVISNOSTI i RAFINACIJA?
 -Veza zavisnosti se uspostavlja na istom nivou apstrakcije dok se rafinacija moze uspostaviti na
 razlicitim nivoima apstrakcije.
-99. Šta predstavlja veza generalizacije u sklopu UML specifikacije dizajna?
+99. Sta predstavlja veza generalizacije u sklopu UML specifikacije dizajna?
 -Predstavlja vezu izmedju klasa u kojoj jedna od njih ima opsta svojstva dok je druga njena
 specijalizacija.Podredjeni element je u potpunoj saglasnosti sa nadredjenim i poseduje sve osobine nad-klase
 (roditejska klasa - predak), ali moze posedovati i dodatne osobine koje definise pod-klasa (potomak). Veza
 generalizacije je jedino moguca izmedju klasa.
-100. Navedite osnovne aspekte dizajna softverskih sistema.Šta obuhvata KONCEPTUALNI DIZAJN?
+100. Navedite osnovne aspekte dizajna softverskih sistema.Sta obuhvata KONCEPTUALNI DIZAJN?
 - Konceptualni dizajn
 - Tehnicki dizajn
 - Arhitektonski dizajn
 - Detaljni dizajn
 Konceptualni dizajn predstavlja preciznu specifikaciju iz koje korisnik nedvosmisleno i jednoznacno
 dobija informaciju o tome sta ce da radi softver.
-101. Navedite osnovne aspekte dizajna softverskih sistema.Šta obuhvata TEHNICKI DIZAJN?
+101. Navedite osnovne aspekte dizajna softverskih sistema.Sta obuhvata TEHNICKI DIZAJN?
 - Konceptualni dizajn
 - Tehnicki dizajn
 - Arhitektonski dizajn
 - Detaljni dizajn
 Tehnicki dizajn omogucava projektantima i programerima razumevanje stvarno potrebnog hardvera i
 softvera za resavanje problema.
-102. Navedite osnovne aspekte dizajna softverskih sistema.Šta obuhvata ARHITEKTONSKI DIZAJN?
+102. Navedite osnovne aspekte dizajna softverskih sistema.Sta obuhvata ARHITEKTONSKI DIZAJN?
 - Konceptualni dizajn
 - Tehnicki dizajn
 - Arhitektonski dizajn
 - Detaljni dizajn
 Arhitektonski dizajn se bavi izborom strategije, resavanje i modularizacijom sistema.
-103. Navedite osnovne aspekte dizajna softverskih sistema. (4) Šta obuhvata DETALJNI DIZAJN?
+103. Navedite osnovne aspekte dizajna softverskih sistema. (4) Sta obuhvata DETALJNI DIZAJN?
 - Konceptualni dizajn
 - Tehnicki dizajn
 - Arhitektonski dizajn
 - Detaljni dizajn
 Detaljan dizajn se bavi formulacijom detaljnih algoritama i strukture podataka neophodne za
 implementaciju sistema.
-104. Kakva je uloga Dekompozicije i modularnosti u sklopu arhitekture rešenja?
+104. Kakva je uloga Dekompozicije i modularnosti u sklopu arhitekture resenja?
 -Dekompozicijom se dolazi do unutrasnje strukture slozenih sistema. Modularnost predstavlja
 karakteristiku koja govori da je resenje sastavljeno od modula koji kooperiraju u cilju implementacije funkcija
 sistema.
-105. Šta je osnov konstrukcije u slucaju dekompozicije bazirane na modulima?
+105. Sta je osnov konstrukcije u slucaju dekompozicije bazirane na modulima?
 -U sklopu ovog pristupa konstrukcija se bazira na alokaciji funkcija komponentama pocevsi od najviseg
 nivoa apstrakcije pa do elementarne (atomicke) funkvionalmosti.
-106. Šta je osnov konstrukcije u slucaju dekompozicije bazirane na podacima?
+106. Sta je osnov konstrukcije u slucaju dekompozicije bazirane na podacima?
 -Kod ovog pristupa dizajn se rukovodi spoljasnjim strukturom podataka. Najvisi nivo apstrakcije
 obuhvata generalnu strukturu podataka dok najnizi nivoi opisuju elemente podataka.
-107. Šta je osnov konstrukcije u slucaju dekompozicije bazirane na dogaajima?
+107. Sta je osnov konstrukcije u slucaju dekompozicije bazirane na dogadjajima?
 -Kod ovog pristupa akcenat se stavlja na dogadjaje i rukovanje dogadjajima odnosno nacim na koji
 dogadjaji menjaju stanje sistema.
-108.Šta je osnov konstrukcije u slucaju dekompozicije bazirane na odnosu ulaz/izlaz?
+108.Sta je osnov konstrukcije u slucaju dekompozicije bazirane na odnosu ulaz-izlaz?
 -Kod ovog pristupa akcenat se stavlja na ulaze i izlaze sistema (sistem se posmatra kao crna kutija).
-109. Šta je osnov konstrukcije u slucaju dekompozicije bazirane na objektima?
+109. Sta je osnov konstrukcije u slucaju dekompozicije bazirane na objektima?
 -Kod ovog pristupa akcenat se stavlja na objekte sa kojima sistem radi, njhove apstrakcije (klase) i veze
 medju njima.
-110. Kada kažemo za sistem da je modularan?
+110. Kada kaZemo za sistem da je modularan?
 -Ako se svaka aktivnost u sistemu odvija uz podrsku samo jedne komponente sa jasno definisanim
 ulazima i izlazima.
-111.Kada za komponentu kažemo da je dobro definisana?
+111.Kada za komponentu kaZemo da je dobro definisana?
 -Ako i samo ako si svi njeni ulazi esencijalni sa aspekta funkcionalnosti koju podrzava a svi njeni izlazi
 posledica neke od njenih (privatnih) akcija.
-112. Navedite cetiri osnovne karakteristike kvalitetnog dizajna. Šte definiše nezavisnost komponenti?
+112. Navedite cetiri osnovne karakteristike kvalitetnog dizajna. Ste definise nezavisnost komponenti?
 - Nezavisnost komponenti
 - Identifikacija i rukovanje izuzecima
 - Otpornost na greske i rukovanje greskama
 - Smanjenje slozenosti
-113. Šta predstavlja snaga veza meu modulima?
-- Nepovezani – nizak nivo zavisnosti
-- Veza preko podataka – parametri
+113. Sta predstavlja snaga veza medju modulima?
+- Nepovezani nizak nivo zavisnosti
+- Veza preko podataka - parametri
 - Veza preko srukture podataka
-- Veza preko kontrola – parametri obezbedjuju prenos kontrole
-- Veza preko zajednickih elemenata – globalne reference ili globalne vrednosti
-- Veze preko sadrzaja – jedna komponenta modifikuje drugu – visok nivo zavisnost
-114. Šta predstavlja unutrašnja funkcionalna snaga modula?
-- Funkcionalna – jedan modul jedna funkcija
-- Sekvencijalna kohezije – jedan modul sadrzi vise funkcija koje se sekvencijalno koriste tako sto se
+- Veza preko kontrola - parametri obezbedjuju prenos kontrole
+- Veza preko zajednickih elemenata - globalne reference ili globalne vrednosti
+- Veze preko sadrzaja - jedna komponenta modifikuje drugu - visok nivo zavisnost
+114. Sta predstavlja unutrasnja funkcionalna snaga modula?
+- Funkcionalna - jedan modul jedna funkcija
+- Sekvencijalna kohezije - jedan modul sadrzi vise funkcija koje se sekvencijalno koriste tako sto se
 izlaz iz jedne prosledjuje na ulaz druge.
-- Komunikaciona – modul sadrzi vise funkcija koje su povezane preko zajednickog repozitorijuma
+- Komunikaciona - modul sadrzi vise funkcija koje su povezane preko zajednickog repozitorijuma
 eksternog za modul.
-- Procedurna – modul sadrzi vise funkcija koje se moraju izvrsiti u utvrdjenom redosledu.
-- Temporalna – modul sadrzi vise funkcija cije izvrsenje vremenski povezano.
-- Logicka – ima smisla da budu zajedno.
-- Koicidentna – slucajno su zajedno.
-115. Kakva je razlika izmeu GREŠKE i IZUZETKA?
+- Procedurna - modul sadrzi vise funkcija koje se moraju izvrsiti u utvrdjenom redosledu.
+- Temporalna - modul sadrzi vise funkcija cije izvrsenje vremenski povezano.
+- Logicka - ima smisla da budu zajedno.
+- Koicidentna - slucajno su zajedno.
+115. Kakva je razlika izmedju GRESKE i IZUZETKA?
 -Izuzetak su pojave koje predvidimo i znamo kako da reagujemo kada se dese,dok kod greske neznamo
 razlog desavanja i moze doci i do kriticnih problema za softver.
-116.Na koja od tri nacina je moguce opslužiti identifikovani izuzetak?
--Ponovni pokusaj – prvobitno stanje se restuira i ponovi servis uz koriscenje druge strategije.
--Korekcija – prvobitno stanje se restuira, izvrsi se korekcija nekog od elemenata servisa i ponovi servis
+116.Na koja od tri nacina je moguce opsluZiti identifikovani izuzetak?
+-Ponovni pokusaj - prvobitno stanje se restuira i ponovi servis uz koriscenje druge strategije.
+-Korekcija - prvobitno stanje se restuira, izvrsi se korekcija nekog od elemenata servisa i ponovi servis
 uz koriscenje iste strategije.
--Izvestaj o neuspehu – prvobitno stanje se restuira, izvesti se kompnenta za rukovanje greskama i
+-Izvestaj o neuspehu - prvobitno stanje se restuira, izvesti se kompnenta za rukovanje greskama i
 servis se blokira.
-117. Šta podrazumeva PREVENCIJA GREŠAKA?
+117. Sta podrazumeva PREVENCIJA GRESAKA?
 -Dizajn uparen sa testiranjem i verifukacijom.
-118. Šta podrazumeva IZBEGAVANJE OTKAZA?
+118. Sta podrazumeva IZBEGAVANJE OTKAZA?
 -Nadzor i sprecavanje otkaza.
-119. Šta podrazumeva DETEKCIJA GREŠAKA?
+119. Sta podrazumeva DETEKCIJA GRESAKA?
 -Otkrivanje gresaka na osnovu manifesacije otkaza.
-120. Šta podrazumeva KOREKCIJA-ISPRAVKA GREŠAKA?
+120. Sta podrazumeva KOREKCIJA-ISPRAVKA GRESAKA?
 -Uklanjanje gresaka, oporavak od posledice otkaza, testiranjem verifikacija i ponovno aktiviranje.
-121. Šta podrazumeva OTPORNOST NA GREŠAKE?
+121. Sta podrazumeva OTPORNOST NA GRESAKE?
 -Podrazumeva dizajniranje softvera tako da izoluje stetu uzrokovanu otkazom, dinamicki reorganizuje
 servise, obezbedi oporavak ili redundantni servis i nastavi podrsku korisnicima.
-122. U cemu se sastoji SMANJENJE SLOŽENOSTI?
+122. U cemu se sastoji SMANJENJE SLOZENOSTI?
 -Pojednostavljuje strukture softverskog sistema i strukture podataka do nivoa potpune funkcionalnosti uz
 minimalnu slozenost. Predstavlja izuzetan izazov za fazu konstrukcije softvera u kojoj cesto dolazi do infiltriranja i
 kumuliranja neracionalnosti i neefikasnosti kao posledica ad-hok intervencija.
@@ -463,8 +462,8 @@ kumuliranja neracionalnosti i neefikasnosti kao posledica ad-hok intervencija.
 - Pouzdanost, raspolozivost, bezbednost i integritet
 - Standardnizacija., integracija, konzistentnost i prenosivost
 - Vreme isporuje i troskovi
-124. Navedite osnovne postulate kvalitetnog GUI dizajna.(6) Šta se podrazumeva pod KORISNICKOM
-ORIJENTISANOŠCU?
+124. Navedite osnovne postulate kvalitetnog GUI dizajna.Sta se podrazumeva pod KORISNICKOM
+ORIJENTISANOSCU?
 - Korisnicka orijentisanost
 - Konzistentnost
 - Personalizacija i podesavanje
@@ -474,8 +473,8 @@ ORIJENTISANOŠCU?
 Korisnicka orijentisanost ne podrazumeva da program u celosti zamenjuje posao korisnika vec da
 korisnik interaktivno obavlja posao : korisnickim akcijama(meniji), preuzimanjem kontrole(dijalozi,servisi),
 povratna informacija (feedback).
-125. Navedite osnovne postulate kvalitetnog GUI dizajna.(6) Šta se podrazumeva pod
-KONZISTENTNOŠCU?
+125. Navedite osnovne postulate kvalitetnog GUI dizajna.(6) Sta se podrazumeva pod
+KONZISTENTNOSCU?
 - Korisnicka orijentisanost
 - Konzistentnost
 - Personalizacija i podesavanje
@@ -485,8 +484,8 @@ KONZISTENTNOŠCU?
 Pod konzistentnosti se podrazumeva da je interfejs izradjen po preporukama postojecih masovno
 koristenih okruzenja (Microsoft,Apple), takodje da koristi ista obelezavanja i fontove za istu grupu operacija,
 postuje konvencije imenovanja i oznacavanja.
-126. Navedite osnovne postulate kvalitetnog GUI dizajna.(6) Šta se podrazumeva pod
-PERSONALIZACIJOM I PODEŠAVANJEM?
+126. Navedite osnovne postulate kvalitetnog GUI dizajna.Sta se podrazumeva pod
+PERSONALIZACIJOM I PODESAVANJEM?
 - Korisnicka orijentisanost
 - Konzistentnost
 - Personalizacija i podesavanje
@@ -495,7 +494,7 @@ PERSONALIZACIJOM I PODEŠAVANJEM?
 - Estetski aspekti i mogucnosti koriscenja
 Personalizacija predstavlja opciju kojom korisnik sam podesava korisnicki interfejs prema svojim
 afinitetima. Podesavanja se vezuju za prilagodjavanje softvera razlicitim grupama korisnika.
-127. Navedite osnovne postulate kvalitetnog GUI dizajna.(6) Šta se podrazumeva pod PODRŠKOM
+127. Navedite osnovne postulate kvalitetnog GUI dizajna.Sta se podrazumeva pod PODRSKOM
 EKSPERIMENTISANJU i OPORAVKU?
 - Korisnicka orijentisanost
 - Konzistentnost
@@ -506,7 +505,7 @@ EKSPERIMENTISANJU i OPORAVKU?
 Najbitniji aspekat kod novih korisnika. Omogucuje im nesmetano eksperimentisanje kroz program.
 Realizuje se viselevelno undo naredbom koja vraca siste u prethodno stanje do pocetnog. U pojedinim
 softverima nije pozeljna implementacija undo naredbe(uzimanje novca iz bankomata).
-128. Navedite osnovne postulate kvalitetnog GUI dizajna.(6) Šta se podrazumeva pod POVRATNOM
+128. Navedite osnovne postulate kvalitetnog GUI dizajna.Sta se podrazumeva pod POVRATNOM
 INDIKACIJOM?
 - Korisnicka orijentisanost
 - Konzistentnost
@@ -517,8 +516,8 @@ INDIKACIJOM?
 Povratna indikacija obavestava korisnika o radu sistema nakon sto je on izdao naredbu. Projektant treba
 da obezbedi vizuelne ili aditivne efekte kojim se naznacava da je sistem zauzet.Potrebno je proceniti vreme
 izvrsavanja radnje i prema njemu postaviti odgovarajucu naznaku indikacije.
-129.Navedite osnovne postulate kvalitetnog GUI dizajna.(6) Šta se podrazumeva pod ESTETSKIM
-ASPEKTIMA I MOGUCNOŠCU KORIŠCENJA?
+129.Navedite osnovne postulate kvalitetnog GUI dizajna Sta se podrazumeva pod ESTETSKIM
+ASPEKTIMA I MOGUCNOSCU KORISCENJA?
 - Korisnicka orijentisanost
 - Konzistentnost
 - Personalizacija i podesavanje
@@ -529,18 +528,18 @@ Pod estetikom se podrazumeva vizuelna pojava gui interfejsa, koja podleze skupu 
 mogucnoscu koriscenja podrazumeva se : lakoca, jednostavnost, efikasnost, pouzdanost i produktivnost pri
 koriscenju softverskog sistema.
 (Lepota je u oku onog koji posmatra!).
-130. Šta predstavlja ARHITEKTURA SOFTVERA?
+130. Sta predstavlja ARHITEKTURA SOFTVERA?
 -Predstavlja opis podsistema i komponenti softverskog sistema zajedno sa njihovim medjusobnim
 vezama. Podsistemi i komponente mogu biti specificirane iz vise uglova sa ciljem ilustrovanja funkcionalnosti i
 nefunkcionalnosti osobina softverskog sistema. Softverska arhitektura sistema predstavlja proizvod koji je
 posledica aktivnosti proektovanja softvera.
-131. Šta obuhvata ARHITEKTURA SOFTVERA?
+131. Sta obuhvata ARHITEKTURA SOFTVERA?
 - Opis gradivnih elemenata softverskog sistema
 - Interakcija medju elementima
 - Sablone koji upravljaju kompozicijom elemenata softverskog sistema.
 - Ogranicenja vezana za sablone.
 - Sistem se moze konstruisati kao kompozitni element pri dizajnu drugih sistema.
-132. Šta definiše ARHITEKTONSKI STIL?
+132. Sta definise ARHITEKTONSKI STIL?
 -Arhitektonski stil definise familiju sistema uz oslonac na sablone koju grade organizacionu strukturu.
 Arhitektonski stil definise:
 -recnik komponenti i tipove konektora
@@ -552,8 +551,8 @@ na bazi svojstava sastavnih delova.
 razlicitih metoda. Konektori mogu biti dekomponovani na druge sisteme (npr. cevi mogu biti interno
 implementirane kao FIFO redovi cekanja). Pojedinacne komponente mogu koristiti mesavinu aritektonskih
 konentora.
-Primer : Unix pipes-and-filters sistem – sistem datoteka se ponasa kao repozitorjum, - prima kontrole
-preko inicijalnih prekidaca – sa drugim konponentama integrira preko cevi.
+Primer : Unix pipes-and-filters sistem - sistem datoteka se ponasa kao repozitorjum, - prima kontrole
+preko inicijalnih prekidaca - sa drugim konponentama integrira preko cevi.
 134. Navedite osnovne prednosti DOGAAJIMA UPRAVLJANIH SISTEMA?
 -Dekompozicija problema.
 -razdvojeno je izracunavanje od kordinacije
@@ -571,31 +570,31 @@ preko inicijalnih prekidaca – sa drugim konponentama integrira preko cevi.
 -Odrzavanje sistema i ponovno koriscenje
 -zahteva centralnu evidenciju koja sadrzi informacije o tome ko sta zna
 -Persformansa
--indirekcija/komunikacija uticu na smanjenje persformanse
+-indirekcija-komunikacija uticu na smanjenje persformanse
 136. Koje elemente obuhvata savremeni pristup u razvoju softvera?
--Obuhvata: dizajn šablone, komponente, arhitekture softvera i radna okruženja (frameworks).
+-Obuhvata: dizajn sablone, komponente, arhitekture softvera i radna okruZenja (frameworks).
 137. Koje elemente obuhvata tradicionalni pristup u razvoju softvera?
 -Obuhvata: programsku paradigmu (varijable i strukture) i strukturu problema (klase, objekti i tipovi podataka).
-138. Šta je osnovna princip programske paradigme i šta ona specificira?
+138. Sta je osnovna princip programske paradigme i sta ona specificira?
 -Osnovni princip je princip programiranja koji obuhvata promenljive i strukture programa. Podrazumeva razvoj
 produkata ciji je osnovni zadatak da obezbede izracunavanje necega. Programska paradigma specificira razlicite nacine
 programiranja.
 139. Kakva je uloga programske paradigme u brzoj izradi softvera?
--Programska paradigma je vezana za proces automatske konstrukcije softvera i najviše se koristi u procesu
+-Programska paradigma je vezana za proces automatske konstrukcije softvera i najvise se koristi u procesu
 konstrukcije prevodilaca i interpretera.
 140. Kakva je uloga strukture problema u procesu brzog razvoja softvera?
--Ovaj nivo apstrakcije omogucava razmatranje krupnijih gradivnih elemenata programskog rešenja, njihovo
+-Ovaj nivo apstrakcije omogucava razmatranje krupnijih gradivnih elemenata programskog resenja, njihovo
 predstavljanje i automatsku konverziju na elemente programske paradigme na bazi metoda programiranja (objektno,
-strukturalno, funkcionalno i sl.). Modelovanje staticke strukture problema odnosno rešenja stvara podlogu za modelom
+strukturalno, funkcionalno i sl.). Modelovanje staticke strukture problema odnosno resenja stvara podlogu za modelom
 upravljanu konstrukciju programskog koda.
-141. Na koje osnovne tri grupe se mogu podeliti šabloni? Objasnite ulogu arhitektonskih šablona?
+141. Na koje osnovne tri grupe se mogu podeliti sabloni. Objasnite ulogu arhitektonskih sablona?
 -Arhitektonski sablon
 -Dizajn sablon
 -Konceptualni sablon
 -Programski sablon
 -Idiomi
 Arhitektonski sablon predstavlja osnovnu strukturu organizacje softverskih sistema.
-142. Na koje osnovne tri grupe se mogu podeliti šabloni? Objasnite ulogu dizajnerskih šablona?
+142. Na koje osnovne tri grupe se mogu podeliti sabloni. Objasnite ulogu dizajnerskih sablona?
 -Arhitektonski sablon
 -Dizajn sablon
 -Konceptualni sablon
@@ -604,7 +603,7 @@ Arhitektonski sablon predstavlja osnovnu strukturu organizacje softverskih siste
 Dizajn sablon obezbedjuje semu za rafiniranje podsistema, komponenti softverskog sistema, ili njihovih
 veza. Opisuje uobicajne strukture koje se cesto javljaju kod komponenti koje saradjuju u cilji resavanja opstih
 problema (generickih) u sklopu posmatranog (posebnog) konteksta.
-143. Na koje osnovne tri grupe se mogu podeliti šabloni? Objasnite ulogu idioma?
+143. Na koje osnovne tri grupe se mogu podeliti sabloni. Objasnite ulogu idioma?
 -Arhitektonski sablon
 -Dizajn sablon
 -Konceptualni sablon
@@ -613,85 +612,85 @@ problema (generickih) u sklopu posmatranog (posebnog) konteksta.
 Idiom je sablom niskog nivoa karakteristican za korisceni programski jezik. Idiom opisuje nacin
 implementacije pojedinacnih aspekata komponenti ili njihovih veza, uz oslonac na svojtva koriscenog
 programskog jezika.
-144. Da li su šabloni vezani iskljucivo za objektnu platformu?
+144. Da li su sabloni vezani iskljucivo za objektnu platformu?
 -Nisu. Sabloni su predlozeni formati za kojima se moze predstaviti resenje tj to su uputstva za izradu
 proizvoda slicnog onome koji vec postoji i proverono je dobar.Sablon opisuje neki problem sa kojim se stalno
 suocavamo i daje sustinski princip resavanja problema.
-145. Da li šabloni nude samo jedno moguce rešenje?
+145. Da li sabloni nude samo jedno moguce resenje?
 -Ne. Sabloni kao kosturi resenja nude sustinski princip resavanja a pojedinacni uzroci resenja ne moraju
 nikad da se ponove. Sabloni predstavljanju specifikaciju problema koji se cesto javlja a ne daju njegovo
 konkretno resenje.
-146. Da li šabloni predstavljaju implementaciju rešenja?
+146. Da li sabloni predstavljaju implementaciju resenja?
 -Ne. Sabloni daju potencijalno moguca resenja. Opisuju kada, zasto i kako neko na osnovu njih moze
 kreirati implementaciju.
-147. Da li svako rešenje predstavlja šablon?
+147. Da li svako resenje predstavlja sablon?
 -Ne. Resenje mora postovati trojno pravilo tj mora da se identifikuje u najmanje tri razlicita problema i
 resenja. Tek tada se vrsi verifikacija fenomena i resenje postaje sablon.
-148. Koje osobine treba da zadovoljava neko rešenje da bi moglo biti proglašeno za šablon?
+148. Koje osobine treba da zadovoljava neko resenje da bi moglo biti proglaseno za sablon?
 -Mora biti pverifikovano kao ponavljajuce za problem koji se cesto ponavlja (trojno pravilo).
-149. Koje esencijalne elemente poseduje svaki šablon. Šta predstavlja kontekst?
+149. Koje esencijalne elemente poseduje svaki sablon. Sta predstavlja kontekst?
 - Kontekst
 - Problem
 - Resenje
 Kontekst opisuje ponavljajuci skup scenarija u kojima je moguce primeniti posmatrani sablon.
-150. Koje esencijalne elemente poseduje svaki šablon. Šta predstavlja problem?
+150. Koje esencijalne elemente poseduje svaki sablon. Sta predstavlja problem?
 - Kontekst
 - Problem
 - Resenje
 Problem se odnosi na skup prinuda tj ciljeva i ogranicenja koji se javljau u sklopu konteksta. U opstem
 slucaju problem daje odgovor na pitanja kada je moguce primeniti sablon.
-151. Koje esencijalne elemente poseduje svaki šablon? Šta predstavlja rešenje?
+151. Koje esencijalne elemente poseduje svaki sablon. Sta predstavlja resenje?
 - Kontekst
 - Problem
 - Resenje
 Resenje opisuje elemente koji predstavljaju sastavne delove sablona, veze medju njima, odgovornosti i
 modelitete saradnje.
-152. Navedite dve osnovne grupe softverskih šablona. U cemu se one razlikuju?
+152. Navedite dve osnovne grupe softverskih sablona. U cemu se one razlikuju?
 - Genereativni sabloni
 - Negenerativni sabloni
 Generativni sabloni sluze za uoblicavanje arhitekture i za generisanje sistema (ili delova istog), tj oni
 pomazu pri generisanju drugih sablona.Negenerativni sabloni su pasivni i deskriptivni, posmatramo ih u sklopu
 postojecih sistema,ne daju nam tumacenje kako doci do novog sablona.
-153. Kakva je razlika izmeu klasnih i objektnih dizajn šablona?
+153. Kakva je razlika izmedju klasnih i objektnih dizajn sablona?
 -Razlika je u domenu:
-• · klasni šabloni koji se fokusiraju na relacije izmeu klasa i podklasa (class patterns)
-• · objektni šabloni koji se fokusiraju na relacije izmeu objekata (object patterns)
-154. Navedite osnovne klase dizajn šablona. Obrazložite namenu kreacionih dizajn šablona?
--Kreacioni, strukturalni i šabloni ponašanja. Kreacioni (gradivni) šabloni apstrahuju proces instanciranja.
-Pomocu njih sistem postaje nezavisan od nacina pravljenja, sastavljanja i predstavljanja objekata. Gradivni šabloni
-omogucavaju veliku fleksibilnost u smislu šta se pravi, ko to pravi, kako se pravi i kada.
-155. Navedite osnovne klase dizajn šablona. Obrazložite namenu strukturalnih dizajn šablona?
--Kreacioni, strukturalni i šabloni ponašanja. Strukturalni šabloni se bave nacinom na koji se klase i objekti
+klasni sabloni koji se fokusiraju na relacije izmedju klasa i podklasa (class patterns)
+objektni sabloni koji se fokusiraju na relacije izmedju objekata (object patterns)
+154. Navedite osnovne klase dizajn sablona. ObrazloZite namenu kreacionih dizajn sablona?
+-Kreacioni, strukturalni i sabloni ponasanja. Kreacioni (gradivni) sabloni apstrahuju proces instanciranja.
+Pomocu njih sistem postaje nezavisan od nacina pravljenja, sastavljanja i predstavljanja objekata. Gradivni sabloni
+omogucavaju veliku fleksibilnost u smislu sta se pravi, ko to pravi, kako se pravi i kada.
+155. Navedite osnovne klase dizajn sablona. ObrazloZite namenu strukturalnih dizajn sablona?
+-Kreacioni, strukturalni i sabloni ponasanja. Strukturalni sabloni se bave nacinom na koji se klase i objekti
 sastavljaju u vece strukture.
-156. Navedite osnovne klase dizajn šablona. Obrazložite namenu dizajn šablona ponašanja?
--Kreacioni, strukturalni i šabloni ponašanja. Šabloni ponašanja bave se algoritmima i raspodelom odgovornosti
-meu objektima. Opisuju prirodu složenog toka kontrole koji se teško prati u vreme izvršavanja.
-157. Kakva je namena i koji problem rešava dizajn šablon Factory Method?
+156. Navedite osnovne klase dizajn sablona. ObrazloZite namenu dizajn sablona ponasanja?
+-Kreacioni, strukturalni i sabloni ponasanja. Sabloni ponasanja bave se algoritmima i raspodelom odgovornosti
+medju objektima. Opisuju prirodu sloZenog toka kontrole koji se tesko prati u vreme izvrsavanja.
+157. Kakva je namena i koji problem resava dizajn sablon Factory Method?
 -Definise interfejs za kreiranje nekog objekta ali podklasi prepusta odluku o tome koju klasu ce
 instancirati. Resava problem dinamickog kreiranja uz oslonac na mehanizam nasledjivanja.
-158. Navedite varijante implementacije dizajn šablon Factory Method? U cemu se one razlikuju?
+158. Navedite varijante implementacije dizajn sablon Factory Method. U cemu se one razlikuju?
 - Kada zelimo da kominiciramo sa instancom neke klase a jedino posedijemo svest o interfejsu ili o
 samoj roditeljskoj klasi.
 - Kada zelimo lokalizovati instanciranje objekta neke klase u cilju bolje kontrole koda.
 Razlikuju se u ideju o koriscenju objekta i resavanju njegove vidljivosti.
-159. Šta omogucava parametrizovani Factory Method?
+159. Sta omogucava parametrizovani Factory Method?
 -Omogucuje da dellarisani proizvodni metod kreira vise vrsta proizvoda zavisno od vrednosti
 prosledjenog parametra.Koristi konstruktor sa parametrima.
-160. Navedite osnovne prednosti dizajn šablona Factory Method?
+160. Navedite osnovne prednosti dizajn sablona Factory Method?
 -Instanciranje konkretnih objekata je lokalizovano. Programski kod nije jako spregnut sa tipom konkretnih
 instanci. Klasa moze delegirati kreiranje konkretnih objekata koje koristi na svoje klase. U slucaju paralelnih
 hijerarhija mozemo lokalizovati znanje o tome koje klase su u vezi.
-161. Navedite osnovne mane dizajn šablona Factory Method?
+161. Navedite osnovne mane dizajn sablona Factory Method?
 -Posto je dizajn obrazac zasnovan na nasledjivanju (najcesce) Dolazi do pojave velikog broja klasa , jer
 svaki proizvod zahteva novog kreatora.
-162. Navedite srodne dizajn šablone za Factory Method?
+162. Navedite srodne dizajn sablone za Factory Method?
 -Abstract factory
 -Template Method
 -Prototip
-163. Kakva je namena i koji problem rešava dizajn šablon Absttractt Factory?
+163. Kakva je namena i koji problem resava dizajn sablon Absttractt Factory?
 -Generalizacija obrazca Factory method. Resava problem vise platformi ; jedan interfejs za kreiranje
 familije proizvoda.Klijent ne mora da zna konkretne implemlementacije.
-164. Šta se dobija a šta gubi primenom dizajn šablona Absttractt Factory ?
+164. Sta se dobija a sta gubi primenom dizajn sablona Absttractt Factory?
 -Dobijamo :
 -Instanciranje familije konkretnih objekata je lokalizovano.
 -Programski kod nije jako spregnit sa tipom konkretnih instanci.
@@ -702,56 +701,56 @@ instancira konkretna fabrika objekata.
 -Zbog nasledjivanja dobijamo relativno velik broj klasa.
 -Svaki novi proizvod zahteva novog kreatora i svaka nova familija proizvoda zahteva novu fabriku
 i nove konkretne proizvode.
-165. Kakva je namena i koji problem rešava dizajn šablon Builder?
+165. Kakva je namena i koji problem resava dizajn sablon Builder?
 -Resava problem parsiranja slozenog modela ili opisa i kreiranje jednog od vise mogucih ciljnih objekata.
 Razdvaja konstrukciju slozenih objekata od njihovog modela tako da isti proces konstrukcije moze da kreira
 razlicite reprezentacije. Obezbedjuje potpuno razdvajanje podataka od nacina prikazivanja.
-166. Šta omogucava primena Builder dizajn šablona?
+166. Sta omogucava primena Builder dizajn sablona?
 -Omogucuje menjanje unutrasnje predstave proizvoda
 -Izoluje kod za izgradnju od koda za predstavljanje
 -Omogucuju finiju kontrolu procesa izgradnje.
-167. Navedite srodne dizajn šablone za Builder dizajn šablon?
-1.Absract factory
-2.Composite
-168. Kakva je namena i koji problem rešava dizajn šablon Prototype?
+167. Navedite srodne dizajn sablone za Builder dizajn sablon?
+- Absract factory
+- Composite
+168. Kakva je namena i koji problem resava dizajn sablon Prototype?
 -Specifira vrste objekata koje je potrebno kreirati uz oslonac na instancu-protorip, o kreora novi objekat
 kopiranjem protopipa. Prototip spada u objek-kreacione sablone. Instanciranje se obicno elegira drugom objektu.
-169. Kada je pogodno primeniti dizajn šablon Prototype?
+169. Kada je pogodno primeniti dizajn sablon Prototype?
 -Koristimo ga da bi se izbeglo kreiranje vise podklasa u cilj instanciranja vise vrsta istog objekta. Klijent
 jedino treba da bude u interakciji sa osnovnim prototipom koji onda utvrdjuje vrstu i poziva poeraciju kloniranja
 konkretnog prototipa.
-170. Koje su prednosti primene dizajn šablona Prototype?
+170. Koje su prednosti primene dizajn sablona Prototype?
 -Skriva konkretne klase koje generisu proizvod.
 -Dozvoljava klijenutu da se skoncentrise na razvoj klasa koje su specificirane za razvijanu aplikacijuj bez
 rizika da ih kasnije mora menjati
 -Dodavanje i ukljnjanje produkta u fazi izvrsavanja.
-171. Koje su mane primene dizajn šablona Prototype?
+171. Koje su mane primene dizajn sablona Prototype?
 -Svaka podklasa mora implementirati Clone() operaciju sto nije uvek jednostavno (kada klasa vec postoji
 to je jako tesko).
-172. Navedite srodne dizajn šablone za Prototype dizajn šablon?
+172. Navedite srodne dizajn sablone za Prototype dizajn sablon?
 - Abstract factory
 - Factory method
 - Composite
 - Decorator
-173. Kakva je namena i koji problem rešava dizajn šablon Singletone?
+173. Kakva je namena i koji problem resava dizajn sablon Singletone?
 -Obezbedjuje da klasa ima samo jednu instancu i pruza globalno dostupnu tacku preko koje se pristupa
 toj instanci.
-174. Koje su prednosti primene dizajn šablona Singletone?
+174. Koje su prednosti primene dizajn sablona Singletone?
 -Kontrolisani pristup jednom primerku
 -Smanjenje prostora imena
 -Omiogucava unapredjenje operacija i predstavljanja
-175. Koje su mane primene dizajn šablona Singletone?
+175. Koje su mane primene dizajn sablona Singletone?
 -Posto obezbedjuje jedinstvenu pristupni tacku servisa, dolazi do skrivenih zavisnosti potencijalno bilo
 gde u kodu.Takodje veze nisu vidkjive analizom interfejsa klasa koje koriste singeltone.Jedna klasa preuzima
 sve odgovornosti.Testiranje.Objekat nosi stanje.
-176. Navedite osnovne šablone koji se mogu implementirati uz oslonac na dizajn šablon Singletone?
+176. Navedite osnovne sablone koji se mogu implementirati uz oslonac na dizajn sablon Singletone?
 - Abstract factory
 - Builder
 - Prototype
-177. Kakva je namena i koji problem rešava dizajn šablon Adapter?
+177. Kakva je namena i koji problem resava dizajn sablon Adapter?
 -Konvertuje interfejs klase u drugi koji klijentsja klasa ocekuje.Omogucuje da klase koje nisu dizajnirane
 da saradjuju posredstvom njega obavljaju saradnju.
-178. Kakva je razlika izmeu klasnog i objektnog Adaptera?
+178. Kakva je razlika izmedju klasnog i objektnog Adaptera?
 -Klasni adapter prilagodjava adaptiranu i ciljnu klasu.Ukoliko klasa poseduje hijerarhiju naslednika
 adapter nadjacava adaptirane klase, tj nema adaptiranja podklasa.Objektni adapter adaptira osnovnu podklasu i
 sve njene podklase, poseduje mehanizam za pristup podklasama.
@@ -764,13 +763,13 @@ Mehanizam nasledjivanja podrazumeva izvodjenje nove klase iz one koja nam odgova
 metoda neophodnih da bi novoizvedena klasa zadovoljila zahteve zeljenog interfejsa.
 Kreiranjem odgovarajuce kompozicije objekata podrazumeva se ukljucivanje klase unutar nove kalse a
 zatim kreiranje metoda koje prevode pozive unutar nave klase.
-180. Navedite srodne dizajn šablone za Adapter dizajn šablon?
+180. Navedite srodne dizajn sablone za Adapter dizajn sablon?
 - Bridge
 - Decorator
 - Proxy
-181. Kakva je namena i koji problem rešava dizajn šablon Bridge?
+181. Kakva je namena i koji problem resava dizajn sablon Bridge?
 -Razdvaja apstrakciju od njene implementacije cime omogucuje njihovu nezavisnu izmenu.
-182. Navedite osnovne situacije u kojima je moguce primeniti dizajn šablon Bridge?
+182. Navedite osnovne situacije u kojima je moguce primeniti dizajn sablon Bridge?
 -Kada je potrebno da neka apstrakcija poseduje vise razlicitih implementacija. Rasporedjivanje podataka
 po nitima.
 -Kada se zeli izbeci trajno vezivanje apstrakcije i njenih implementacija
@@ -778,7 +777,7 @@ po nitima.
 -Kada promena u implementaciji ne sme da utice na klijente
 -Kada se zeliti smanjiti brij kalsa u hijerarhiji
 -Kada se u implementaciji deli vise objekata a da klijent toga nije svestan.
-183. Navedite osnovne posledice primenite dizajn šablon Bridge?
+183. Navedite osnovne posledice primenite dizajn sablon Bridge?
 -Razdvajenje interfejsa od implementacije
 -implementacija nije trajno vezana sa interfejsom
 -implementacija apstrakcije se moze odgoditi do trenutka izvrsavanja
@@ -786,51 +785,51 @@ po nitima.
 -Jednostavno prosirivanje
 -hijerarhija apstrakcija i implementacija se mogu nezavisno prosirivati.
 -Skrivanje implementacionih detalja od klijenta
-184. Obrazložite znacaj razdvajanja interfejsa od implementacije?
+184. ObrazloZite znacaj razdvajanja interfejsa od implementacije?
 -Pogodnosti su te sto nasledjivanjem interfejsa mozemo ga razlicito implementrati u zavisnosti od
 konkretne potrebe.
-185. Navedite srodne dizajn šablone za Bridge dizajn šablon?
+185. Navedite srodne dizajn sablone za Bridge dizajn sablon?
 - Abstract Factory
 - Adapter
-186. Kakva je namena i koji problem rešava dizajn šablon Composite?
--Rukovanje hijerarhijama koje predstavljaju strukturu „celina-deo-celina“. Uniformno rukovanje
+186. Kakva je namena i koji problem resava dizajn sablon Composite?
+-Rukovanje hijerarhijama koje predstavljaju strukturu celina-deo-celina. Uniformno rukovanje
 elementarnim i slozenim komponentama.
-187. Navedite osnovne posledice primenite dizajn šablon Composite?
+187. Navedite osnovne posledice primenite dizajn sablon Composite?
 -Definise hijerarhije klasa koje se sastoje od primitivnih i slozenih objekata.
--Primitivni objekti se mogu udruživati u složenije objekte, koji se rekurzivno mogu dalje
+-Primitivni objekti se mogu udruZivati u sloZenije objekte, koji se rekurzivno mogu dalje
 strukturirati.
--Kad god klijentski kod ocekuje primitivni objekat bez posledica može preuzeti i kompozitni
+-Kad god klijentski kod ocekuje primitivni objekat bez posledica moZe preuzeti i kompozitni
 objekat.
 -Klijent se pojednostavljuje
--Klijent može tretirati kompozitne strukture i primitivne objekte UNIFORMNO.
+-Klijent moZe tretirati kompozitne strukture i primitivne objekte UNIFORMNO.
 -Klijent nema znanje (i ne treba da brine) da li radi sa Listom ili sa Sastavom
 -Celokupno resenje moze postati generickije nego sto je potrebno
--Mana jednostavnog dodavanja komponenti je da se usložnjava sprecavanje ukljucivanja nekih
+-Mana jednostavnog dodavanja komponenti je da se usloZnjava sprecavanje ukljucivanja nekih
 komponenti u sastav:
--U tom slucaju su neophodne PROVERE U FAZI IZVRŠAVANJA.
-188. Kakva je namena i koji problem rešava dizajn šablon Decorator?
--Rukovanje hijerarhijama koje predstavljaju strukturu „celina-deo-celina“. Uniformno rukovanje
+-U tom slucaju su neophodne PROVERE U FAZI IZVRSAVANJA.
+188. Kakva je namena i koji problem resava dizajn sablon Decorator?
+-Rukovanje hijerarhijama koje predstavljaju strukturu celina-deo-celina. Uniformno rukovanje
 elementarnim i slozenim komponentama.
-189. Koje su prednosti primene dizajn šablona Decorator?
--Fleksibilnije od statickog nasleivanja
--Odgovornosti je moguce dodavati i ukidati u fazi izvršavanja.
--Takoer je moguce jedno te isto svojstvo dodati VIŠE PUTA!
--Izbegava se uvoenje klasa koje opisuju opcije i dodatna svojstva na više nivoe hijerarhije.
+189. Koje su prednosti primene dizajn sablona Decorator?
+-Fleksibilnije od statickog nasledjivanja
+-Odgovornosti je moguce dodavati i ukidati u fazi izvrsavanja.
+-Takodjer je moguce jedno te isto svojstvo dodati VISE PUTA!
+-Izbegava se uvodjenje klasa koje opisuju opcije i dodatna svojstva na vise nivoe hijerarhije.
 -Nudi mogucnost dodavanja odgovornosti po potrebi.
--Umesto pokušaja obezbeivanja podrške za sve moguce kombinacije proširenja u sklopu jedne
-složene klase, moguce je krenuti od jednostavne klase i DEKORISATI je po potrebi.
-190. Koje su mane primene dizajn šablona Decorator?
+-Umesto pokusaja obezbedjivanja podrske za sve moguce kombinacije prosirenja u sklopu jedne
+sloZene klase, moguce je krenuti od jednostavne klase i DEKORISATI je po potrebi.
+190. Koje su mane primene dizajn sablona Decorator?
 -Dekorater i njegova komponenta NISU IDENTICNI
 -Sa aspekta IDENTITETA OBJEKATA dekorisana komponenta nije identicna originalnoj
 komponenti.
 -Veliki broj jednostavnih objekata
 -Sistemi koji su sastavljeni od velikog broja jednostavnih objekata koji svi lice jedan na drugog.
--Jednostavno se podešava ali ga je teško razumeti i TESTIRATI.
-191. Kakva je namena i koji problem rešava dizajn šablon Facade?
+-Jednostavno se podesava ali ga je tesko razumeti i TESTIRATI.
+191. Kakva je namena i koji problem resava dizajn sablon Facade?
 -Obezbedjuje jedinstvenost interfejsa za skup podsistema.
-192. Kakva je namena i koji problem rešava dizajn šablon Flyweight?
+192. Kakva je namena i koji problem resava dizajn sablon Flyweight?
 -Oslonac na mehanizam deljenja u cilju efikasnog podrzavanja rada sa velikim brojem jednostavnih
 objekata.
-193. Kakva je namena i koji problem rešava dizajn šablon Proxy?
+193. Kakva je namena i koji problem resava dizajn sablon Proxy?
 -Resava problem distribuirane obrade tako sto obezbedjuje lokalnu predstavu jedne te iste komponente u
 razlicitom adresnom prostoru.

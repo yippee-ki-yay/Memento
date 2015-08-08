@@ -19,9 +19,50 @@ namespace Memento
     /// </summary>
     public partial class LoaderWindow : Window
     {
-        public LoaderWindow()
+        QuestionManager qm;
+        string filePath;
+
+        public LoaderWindow(QuestionManager manager)
         {
             InitializeComponent();
+            this.qm = manager;
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Browse_Click(object sender, RoutedEventArgs e)
+        {
+            filePath = qm.openQuestions();
+            fileText.Text = filePath;
+        }
+
+        private void Import_Click(object sender, RoutedEventArgs e)
+        {
+            if(filePath != "")
+            {
+                if(qaCheck.IsChecked.Value)
+                    if(qm.parseOriginal(filePath))
+                     {
+                     this.Close();
+                     }
+                     else
+                     {
+                      //failed parsing
+                     }
+
+                if (standardCheck.IsChecked.Value)
+                    if (qm.parseStandard(filePath))
+                    {
+                        this.Close();
+                    }
+                    else
+                    {
+                        //failed parsing
+                    }
+            }
         }
     }
 }

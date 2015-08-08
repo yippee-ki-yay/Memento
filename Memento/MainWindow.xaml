@@ -13,7 +13,7 @@
                 <TextBlock x:Name="odogovorText" HorizontalAlignment="Left" Height="140" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" RenderTransformOrigin="0.494,0.585"/>
             </ScrollViewer>
         </Border>
-        <Button Content="Next" x:Name="nextButton" HorizontalAlignment="Left" Height="44" Margin="453,200,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click"/>
+        <Button Content="Next" x:Name="nextButton" HorizontalAlignment="Left" Height="44" Margin="453,200,0,0" VerticalAlignment="Top" Width="103" Click="NextQa_Click"/>
         <Button Content="Show" x:Name="showButton" HorizontalAlignment="Left" Height="43" Margin="453,59,0,0" VerticalAlignment="Top" Width="103" Click="Button_Click_1"/>
 
 

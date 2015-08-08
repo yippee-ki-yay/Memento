@@ -9,10 +9,11 @@ using System.Windows.Forms;
 
 namespace Memento
 {
-    class QuestionManager
+    public class QuestionManager
     {
         List<Tuple<string, string>> qaList { get; set; }
         private Random rnd = new Random();
+        int currIndex = 0;
  
         public QuestionManager()
         {
@@ -74,8 +75,10 @@ namespace Memento
         /// Parsira fajl dok je u originalnoj formi polu struktiruan
         /// NUMBER. pitanje ? odogovor
         /// </summary>
-        public bool parseOriginal(string text)
+        public bool parseOriginal(string filePath)
         {
+            string text = System.IO.File.ReadAllText(filePath, Encoding.ASCII);
+
             string[] parts = Regex.Split(text, @"\b\d+\.");
 
             //string[] parts = results.Split('?');
@@ -86,6 +89,7 @@ namespace Memento
 
                 if (t.Length == 2)
                     qaList.Add(new Tuple<string, string>(t[0], t[1]));
+            
             }
 
             return true;
@@ -98,6 +102,14 @@ namespace Memento
         public Tuple<string, string> getRandom()
         {
             return qaList[rnd.Next(qaList.Count)];
+        }
+
+        public Tuple<string, string> getSequentail()
+        {
+            if (currIndex == qaList.Count)
+                currIndex = 0;
+
+            return qaList[currIndex++];
         }
     }
 }

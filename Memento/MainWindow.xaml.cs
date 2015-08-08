@@ -43,46 +43,13 @@ namespace Memento
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void NextQa_Click(object sender, RoutedEventArgs e)
         {
-            if(nenad_pars)
-                curr = qm.getRandom();
-            if(besa_pars)
-                curr = bp.getRandom();
+            curr = qm.getSequentail();
             
             pitanjeText.Text = curr.Item1;
             odogovorText.Text = "";
            
-        }
-
-        
-        
-        private void besaParse_Click(object sender, RoutedEventArgs e)
-        {
-            if (!bp.parseFile())
-                return;
-
-            besa_pars = true;
-            nextButton.IsEnabled = true;
-            showButton.IsEnabled = true;
-
-            curr = bp.getRandom();
-            pitanjeText.Text = curr.Item1;
-        }
-
-        private void nenadParse_Click(object sender, RoutedEventArgs e) {
-
-            if (!qm.loadFile(1))
-                qm.loadFile(1);
-
-            nenad_pars = true;
-            nextButton.IsEnabled = true;
-            showButton.IsEnabled = true;
-          
-            curr = qm.getRandom();
-            pitanjeText.Text = curr.Item1;
-
-        
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -92,8 +59,12 @@ namespace Memento
 
         private void Loader_Click(object sender, RoutedEventArgs e)
         {
-            LoaderWindow loaderWindow = new LoaderWindow();
+            LoaderWindow loaderWindow = new LoaderWindow(qm);
             loaderWindow.ShowDialog();
+            nextButton.IsEnabled = true;
+            showButton.IsEnabled = true;
+            curr = qm.getSequentail();
+            pitanjeText.Text = curr.Item1;
         }
 
         private void ExitApp_Click(object sender, RoutedEventArgs e)

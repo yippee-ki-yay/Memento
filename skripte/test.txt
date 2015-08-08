@@ -1,0 +1,7 @@
+1. Kako se naziva prvi korak u procesu razvoja softvera?
+-Izrada specifikacije - zahteva
+2. Definisite pojam ZAHTEV?
+-Zahtev je svojstvo ili osobina koja se mora iskazati u cilju stvaranja podloge za resavanje nekog
+problema.
+3. Na sta se odnose ZAHTEVI?
+-Zahtevi se odnose na neke aspekte funkcionisanja sistema koji je predmet analize
